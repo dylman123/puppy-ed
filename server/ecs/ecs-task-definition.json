@@ -50,7 +50,7 @@
     "memory": "100",
     "taskRoleArn": "",
     "family": "PuppyEdExpressAppDevTask",
-    "pidMode": "",
+    "pidMode": "task",
     "requiresCompatibilities": [
       "EC2"
     ],
