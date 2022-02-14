@@ -1,5 +1,5 @@
 {
-    "ipcMode": "",
+    "ipcMode": "task",
     "executionRoleArn": "",
     "containerDefinitions": [
       {
