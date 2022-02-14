@@ -5,7 +5,6 @@
       {
         "dnsSearchDomains": [],
         "environmentFiles": [],
-        "logConfiguration": {},
         "entryPoint": [],
         "portMappings": [
           {
@@ -31,11 +30,9 @@
         "stopTimeout": 300,
         "image": "595162448248.dkr.ecr.ap-southeast-2.amazonaws.com/puppy-ed-express-app-dev:latest",
         "startTimeout": 60,
-        "firelensConfiguration": {},
         "dependsOn": [],
         "disableNetworking": false,
         "interactive": true,
-        "healthCheck": {},
         "essential": true,
         "links": [],
         "hostname": "",
@@ -61,6 +58,5 @@
     "runtimePlatform": {},
     "cpu": "1024",
     "inferenceAccelerators": [],
-    "proxyConfiguration": {},
     "volumes": []
   }
