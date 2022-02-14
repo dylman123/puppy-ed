@@ -1,0 +1,27 @@
+.App-header {
+  min-height: 20vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* justify-content: space-around; */
+  font-size: calc(10px + 2vmin);
+  color: white;
+  margin: 0 20px;
+}
+
+.sectionIntro {
+  display: flex;
+  flex-direction: row;
+}
+
+.headingsContainer {
+  flex: 1;
+}
+
+.imageContainer {
+  flex: 1;
+}
+
+.mainImage {
+  filter: invert();
+}

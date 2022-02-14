@@ -1,28 +1,30 @@
 import React from 'react';
 import mainImage from './Education.svg';
 
+import './SectionIntro.css';
+
 export default function SectionIntro() {
   return (
     <div className='sectionIntro'>
-        <div className='headingsContainer'>
+      <div className='headingsContainer'>
         <h1 className='heading1'>
-            ANKC registered breeders educating the wider community
+          ANKC registered breeders educating the wider community
         </h1>
         <h2 className='heading2'>
-            Write your own learner module for potential puppy owners to complete.
+          Write your own learner module for potential puppy owners to complete.
         </h2>
         <div className='ctaContainer'>
-            <a className='ctaPrimary' href='#signUp'>
+          <a className='ctaPrimary' href='/#signUp'>
             Become an author
-            </a>
-            <a className='ctaSecondary' href='/learning-centre'>
+          </a>
+          <a className='ctaSecondary' href='/learning-centre'>
             view learner modules
-            </a>
+          </a>
         </div>
-        </div>
-        <div className='imageContainer'>
+      </div>
+      <div className='imageContainer'>
         <img src={mainImage} className='mainImage' alt='Labrador teacher' />
-        </div>
+      </div>
     </div>
   );
 }
