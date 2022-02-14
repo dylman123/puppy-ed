@@ -13,7 +13,7 @@
             "containerPort": 5000
           }
         ],
-        "command": [],
+        "command": ["node", "index.js"],
         "linuxParameters": {},
         "cpu": 1024,
         "environment": [],
@@ -47,7 +47,7 @@
       }
     ],
     "placementConstraints": [],
-    "memory": "100",
+    "memory": "512",
     "taskRoleArn": "",
     "family": "PuppyEdExpressAppDevTask",
     "pidMode": "task",
@@ -55,7 +55,9 @@
       "EC2"
     ],
     "networkMode": "bridge",
-    "runtimePlatform": {},
+    "runtimePlatform": {
+      "operatingSystemFamily": "LINUX"
+    },
     "cpu": "1024",
     "inferenceAccelerators": [],
     "volumes": []
