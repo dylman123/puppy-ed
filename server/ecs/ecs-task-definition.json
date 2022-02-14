@@ -35,7 +35,7 @@
         "interactive": true,
         "essential": true,
         "links": [],
-        "hostname": "",
+        "hostname": "puppy-ed-dev-express-app",
         "extraHosts": [],
         "pseudoTerminal": false,
         "user": "",
