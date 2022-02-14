@@ -54,7 +54,7 @@
     "requiresCompatibilities": [
       "EC2"
     ],
-    "networkMode": "host",
+    "networkMode": "bridge",
     "runtimePlatform": {},
     "cpu": "1024",
     "inferenceAccelerators": [],
