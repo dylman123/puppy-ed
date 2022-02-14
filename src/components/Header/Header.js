@@ -1,4 +1,5 @@
 import React from 'react';
+import './Header.css';
 
 export default function Header() {
   return (
@@ -6,6 +7,7 @@ export default function Header() {
       <a className='linkHomePage' href='/'>
         Puppy Ed
       </a>
+      <div className='spacer' />
       <a className='linkModulesPage' href ='/learning-centre'>
         Learning Centre
       </a>

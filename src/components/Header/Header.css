@@ -1,0 +1,26 @@
+.App-header {
+  min-height: 20vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* justify-content: space-around; */
+  font-size: calc(10px + 2vmin);
+  color: white;
+  margin: 0 20px;
+}
+
+.linkHomePage {
+  flex: 1;
+}
+
+.spacer {
+  flex: 4
+}
+
+.linkModulesPage {
+  flex: 1;
+}
+
+.linkHelpPage {
+  flex: 1;
+}
