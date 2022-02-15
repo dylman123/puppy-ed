@@ -44,6 +44,12 @@
   margin: 0 0 150px 0;
 }
 
+@media screen and (min-width: 768px) {
+  .section {
+    margin: 0 0 100px 0;
+  }
+ }
+
 .responsiveContainer {
   display: flex;
   flex-direction: column;
