@@ -10,7 +10,7 @@ export default function SectionIntro() {
         <h1 className='heading1'>
           ANKC registered breeders educating the wider community
         </h1>
-        <h2 className='heading2'>
+        <h2 className='heading3'>
           Write your own learner module for potential puppy owners to complete.
         </h2>
         <div className='ctaContainer'>

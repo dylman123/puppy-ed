@@ -11,3 +11,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.heading1 {
+  color: #28DD18;
+  font-size: 48px;
+}
+
+.heading2 {
+  color: #444444;
+  font-size: 36px;
+}
+
+.heading3 {
+  color: #444444;
+  font-size: 18px;
+}
+
+/* ================ Custom media queries ================ */
+
+/* :root {
+  --viewportSmall: (min-width: 550px);
+  --viewportMedium: (min-width: 768px);
+  --viewportLarge: (min-width: 1024px);
+  --viewportLargeWithPaddings: (min-width: 1128px);
+  --viewportXLarge: (min-width: 1921px);
+} */
+

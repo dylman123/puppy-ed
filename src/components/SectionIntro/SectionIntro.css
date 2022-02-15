@@ -1,21 +1,17 @@
-.App-header {
-  min-height: 20vh;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  /* justify-content: space-around; */
-  font-size: calc(10px + 2vmin);
-  color: white;
-  margin: 0 20px;
-}
-
 .sectionIntro {
   display: flex;
-  flex-direction: row;
+  flex-direction: column-reverse;
+}
+
+@media screen and (min-width: 768px) {
+ .sectionIntro {
+   flex-direction: row;
+ }
 }
 
 .headingsContainer {
   flex: 1;
+  text-align: start;
 }
 
 .imageContainer {
@@ -24,4 +20,5 @@
 
 .mainImage {
   filter: invert();
+  max-height: 60%;
 }
