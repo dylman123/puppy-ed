@@ -7,9 +7,9 @@ export default function Footer() {
       <a className='footerHeading' href='/'>
         Puppy Ed
       </a>
-      <h4 className='heading4'>
+      <p>
         ANKC registered breeders educating the wider community.
-      </h4>
+      </p>
       <a className='footerCta' href='/#join'>
         Become an author
       </a>

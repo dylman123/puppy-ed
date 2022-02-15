@@ -12,11 +12,14 @@ code {
     monospace;
 }
 
+h1,h2,h3,h4,p {
+  text-align: start;
+  font-family: 'Lexend Deca', 'Roboto', 'sans-serif';
+}
+
 h1 {
   color: #28DD18;
   font-size: 32px;
-  text-align: start;
-  font-family: 'Lexend Deca', 'Roboto', 'sans-serif';
 }
 
 @media screen and (min-width: 768px) {
@@ -28,23 +31,21 @@ h1 {
 h2 {
   color: #444444;
   font-size: 36px;
-  text-align: start;
-  font-family: 'Lexend Deca', 'Roboto', 'sans-serif';
 }
 
 h3 {
   color: #444444;
   font-size: 18px;
-  text-align: start;
-  font-family: 'Lexend Deca', 'Roboto', 'sans-serif';
 }
 
-div {
-  font-family: 'Lexend Deca', 'Roboto', 'sans-serif';
+h4 {
+  color: #28DD18;
+  font-size: 18px;
 }
 
 p {
-  font-family: 'Lexend Deca', 'Roboto', 'sans-serif';
+  color: #444444;
+  font-size: 16px;
 }
 
 a:hover {
