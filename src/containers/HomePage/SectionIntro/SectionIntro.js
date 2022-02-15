@@ -5,7 +5,7 @@ import './SectionIntro.css';
 
 export default function SectionIntro() {
   return (
-    <div className='sectionIntro'>
+    <div className='responsiveContainer mobile-column-reverse'>
       <div className='headingsContainer'>
         <h1>
           ANKC registered breeders educating the wider community

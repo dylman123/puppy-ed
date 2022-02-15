@@ -41,5 +41,34 @@
 }
 
 .section {
-  margin: 0 0 100px 0;
+  margin: 0 0 150px 0;
+}
+
+.responsiveContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+ .responsiveContainer {
+    flex-direction: row;
+ }
+}
+
+@media screen and (max-width: 768px) {
+  .mobile-column-reverse {
+    flex-direction: column-reverse;
+  }
+ }
+
+.image {
+  max-height: 250px;
+  margin-top: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .image {
+    margin: 50px 0 0 50px;
+    max-height: 400px;
+  }
 }
