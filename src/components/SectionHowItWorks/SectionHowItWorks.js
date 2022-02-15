@@ -9,6 +9,7 @@ export default function SectionHowItWorks() {
       </h2>
       <div className='steps'>
         <div className='step'>
+          <span class="material-icons-outlined md-36 icon icon1">edit</span>
           <h3 className='title'>
             Write your quiz
           </h3>
@@ -17,6 +18,7 @@ export default function SectionHowItWorks() {
           </div>
         </div>
         <div className='step'>
+          <span class="material-icons-outlined md-36 icon icon2">send</span>
           <h3 className='title'>
             Share your quiz
           </h3>
@@ -25,6 +27,7 @@ export default function SectionHowItWorks() {
           </div>
         </div>
         <div className='step'>
+          <span class="material-icons-outlined md-36 icon icon3">emoji_events</span>
           <h3 className='title'>
             Receive results
           </h3>

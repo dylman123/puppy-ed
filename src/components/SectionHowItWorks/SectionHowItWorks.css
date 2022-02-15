@@ -1,12 +1,41 @@
 .steps {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   gap: 50px;
   justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .steps {
+    flex-direction: row;
+    align-items: flex-start;
+  }
 }
 
 .step {
 
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 60px;
+  width: 60px;
+  height: 60px;
+}
+
+.icon1 {
+  background-color: #EDEDED;
+}
+
+.icon2 {
+  background-color: #F0E6EC;
+}
+
+.icon3 {
+  background-color: #E9F3FD;
 }
 
 .title {
