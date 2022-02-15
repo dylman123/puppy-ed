@@ -6,9 +6,9 @@ import SectionSignUp from '../../components/SectionSignUp/SectionSignUp';
 export default function HomePage() {
   return (
       <div className='homePage'>
-        <SectionIntro />
-        <SectionHowItWorks />
-        <SectionSignUp />
+        <SectionIntro className='section' />
+        <SectionHowItWorks className='section' />
+        <SectionSignUp className='section' />
       </div>
   );
 }

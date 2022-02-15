@@ -3,9 +3,9 @@ import mainImage from './Education.svg';
 
 import './SectionIntro.css';
 
-export default function SectionIntro() {
+export default function SectionIntro(props) {
   return (
-    <div className='sectionIntro'>
+    <div className={`sectionIntro ${props.className}`}>
       <div className='headingsContainer'>
         <h1 className='heading1'>
           ANKC registered breeders educating the wider community

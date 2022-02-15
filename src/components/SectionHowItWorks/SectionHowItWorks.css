@@ -1,0 +1,25 @@
+.steps {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  justify-content: space-between;
+}
+
+.step {
+
+}
+
+.title {
+  text-align: start;
+  color: #444444;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.description {
+  text-align: start;
+  color: #444444;
+  font-size: 16px;
+  font-weight: 400;
+  max-width: 260px;
+}
