@@ -1,9 +1,10 @@
 import React from 'react';
+import './SectionHowItWorks.css';
 
 export default function SectionHowItWorks() {
   return (
-    <div className='sectionHowItWorks'>
-      <h2 className='heading2'>
+    <div className='sectionHowItWorks section'>
+      <h2>
         How it works
       </h2>
       <div className='steps'>

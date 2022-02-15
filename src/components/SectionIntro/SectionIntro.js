@@ -3,16 +3,16 @@ import mainImage from './Education.svg';
 
 import './SectionIntro.css';
 
-export default function SectionIntro(props) {
+export default function SectionIntro() {
   return (
-    <div className={`sectionIntro ${props.className}`}>
+    <div className={`sectionIntro section`}>
       <div className='headingsContainer'>
-        <h1 className='heading1'>
+        <h1>
           ANKC registered breeders educating the wider community
         </h1>
-        <h2 className='heading3'>
+        <h3>
           Write your own learner module for potential puppy owners to complete.
-        </h2>
+        </h3>
         <div className='ctaContainer'>
           <a className='ctaPrimary' href='/#signUp'>
             Become an author
