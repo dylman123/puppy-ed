@@ -47,6 +47,14 @@ p {
   font-family: 'Lexend Deca', 'Roboto', 'sans-serif';
 }
 
+a:hover {
+  transform: scale(1.05);
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
 /* ================ Google Material Icons =============== */
 
 /* Rules for sizing the icon. */

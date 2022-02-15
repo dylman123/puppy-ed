@@ -51,10 +51,6 @@
   font-weight: bold;
 }
 
-:hover.ctaPrimary {
-  transform: scale(1.05);
-}
-
 .ctaSecondary {
   text-decoration: none;
   margin: auto 0;
