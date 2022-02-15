@@ -1,5 +1,4 @@
 import React from 'react';
-import css from './SectionHowItWorks.css'
 
 export default function SectionHowItWorks() {
   return (
