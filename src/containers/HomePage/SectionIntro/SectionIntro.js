@@ -5,7 +5,7 @@ import './SectionIntro.css';
 
 export default function SectionIntro() {
   return (
-    <div className={`sectionIntro section`}>
+    <div className='sectionIntro'>
       <div className='headingsContainer'>
         <h1>
           ANKC registered breeders educating the wider community
@@ -14,7 +14,7 @@ export default function SectionIntro() {
           Write your own learner module for potential puppy owners to complete.
         </h3>
         <div className='ctaContainer'>
-          <a className='ctaPrimary' href='/#signUp'>
+          <a className='ctaPrimary' href='/#join'>
             Become an author
           </a>
           <a className='ctaSecondary' href='/learning-centre'>
