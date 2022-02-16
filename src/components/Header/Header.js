@@ -1,12 +1,12 @@
 import React from 'react';
-import HomeLink from '../HomeLink/HomeLink';
+import Logo from '../Logo/Logo';
 import './Header.css';
 
 export default function Header() {
   return (
     <header className='App-header'>
       <a className='linkHomePage buttonPrimary' href='/'>
-        <HomeLink />
+        <Logo />
       </a>
       <div className='spacer' />
       <a className='linkModulesPage buttonPrimary' href ='/learning-centre'>

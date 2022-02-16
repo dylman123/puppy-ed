@@ -1,13 +1,13 @@
 import React from 'react';
-import HomeLink from '../HomeLink/HomeLink';
+import Logo from '../Logo/Logo';
 import './Footer.css';
 
 export default function Footer() {
   return (
     <footer className='footer'>
-      <div className='footerHeading'>
-        <HomeLink />
-      </div>
+      <a className='footerHeading' href='/'>
+        <Logo />
+      </a>
       <p>
         ANKC registered breeders educating the wider community.
       </p>
