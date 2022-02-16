@@ -5,6 +5,19 @@
   align-items: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding: 2% 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .App-header {
+    padding: 2% 10%;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .App-header {
+    padding: 2% 17%;
+  }
 }
 
 .linkHomePage {

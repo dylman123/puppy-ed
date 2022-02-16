@@ -27,7 +27,7 @@ export default function SectionOurMission() {
           </p>
         </div>
         <div className='imageContainer'>
-          <img src={image} className='image' alt='Labrador breeder' />
+          <img src={image} className='image photo' alt='Labrador breeder' />
         </div>
       </div>
     </div>

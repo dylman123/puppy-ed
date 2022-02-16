@@ -1,0 +1,14 @@
+.sectionSignUp {
+
+}
+
+.headingSignUp {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.field {
+    background-color: #FFFFFF;
+    border: 3px solid black;
+}
