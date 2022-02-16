@@ -14,6 +14,7 @@ export default function SectionSignUp() {
       <div className='sectionFormFields'>
         <iframe 
           src="https://docs.google.com/forms/d/e/1FAIpQLSeCHc04U0dpev5zpl1jq2LIRHaSs7CrTCXy_IraQtvGWV-Fiw/viewform?embedded=true" 
+          title="signUpFrame"
           width="100%" 
           height="1350px" 
           frameborder="0" 
