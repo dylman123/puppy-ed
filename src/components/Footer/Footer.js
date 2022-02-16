@@ -1,16 +1,18 @@
 import React from 'react';
+import HomeLink from '../HomeLink/HomeLink';
 import './Footer.css';
 
 export default function Footer() {
   return (
     <footer className='footer'>
-      <a className='footerHeading' href='/'>
-        Puppy Ed
-      </a>
+      <div className='footerHeading'>
+        <HomeLink />
+      </div>
       <p>
         ANKC registered breeders educating the wider community.
       </p>
-      <a className='footerCta' href='/#join'>
+
+      <a className='ctaPrimary' href='/#join'>
         Become an author
       </a>
     </footer>

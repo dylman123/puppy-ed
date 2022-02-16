@@ -1,0 +1,9 @@
+.linkTitle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    text-decoration: none;
+    color: #509949;
+    font-weight: 700;
+  }
