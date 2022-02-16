@@ -4,12 +4,12 @@ import './SectionSignUp.css';
 export default function SectionSignUp() {
   return (
     <div className='sectionSignUp'>
-      <div className='headingSignUp'>
+      {/* <div className='headingSignUp'>
         <h2>
           Become an author
         </h2>
         <span class="material-icons-outlined md-36 icon">edit</span>
-      </div>
+      </div> */}
 
       <div className='sectionFormFields'>
         <iframe 
