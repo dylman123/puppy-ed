@@ -20,6 +20,12 @@
   }
 }
 
+.mobile-header {
+  font-size: smaller;
+  margin: 0 -20px;
+  gap: 0;
+}
+
 .linkHomePage {
   flex: 1;
 }
@@ -30,10 +36,16 @@
 
 .linkModulesPage {
   flex: 1;
-  color: #509949;
+  display: flex;
+  justify-content: center;
 }
 
 .linkHelpPage {
   flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.linkStyle {
   color: #509949;
 }

@@ -6,4 +6,9 @@
   text-decoration: none;
   color: #509949;
   font-weight: 700;
+  justify-content: flex-start;
+}
+
+.mobile-logo {
+  gap: 3px;
 }
