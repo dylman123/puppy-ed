@@ -120,6 +120,6 @@
   backdrop-filter: blur(20px);
   /* Note: backdrop-filter has minimal browser support */
   border-radius: 30px;
-  min-width: 200px;
+  min-width: 153px;
   min-height: 60px;
 }
