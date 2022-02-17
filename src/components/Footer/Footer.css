@@ -2,10 +2,20 @@
   padding: 15% 40px;
   background-color: #D3D3D3;
   text-align: start;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+@media screen and (min-width: 500px) {
+  .footer {
+    gap: 50px;
+  }
 }
 @media screen and (min-width: 768px) {
   .footer {
     padding: 5% 10%;
+    flex-direction: row;
+    gap: 150px;
   }
 }
 @media screen and (min-width: 1500px) {
@@ -16,4 +26,17 @@
 
 .footerHeading {
 
+}
+
+.ctaFooter {
+  margin-top: 60px;
+}
+
+.footerLinkContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.footerLink {
+  font-weight: bold;
 }
