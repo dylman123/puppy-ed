@@ -1,0 +1,58 @@
+.pageArt {
+
+}
+
+.ellipse1 {
+    position: absolute;
+    width: 464px;
+    height: 464px;
+    left: -128px;
+    top: -57px;
+    background: #E3FFE0;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.ellipse2 {
+    position: absolute;
+    width: 302px;
+    height: 302px;
+    left: 363px;
+    top: -140px;
+    background: #EDEDED;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.ellipse3 {
+    position: absolute;
+    width: 376px;
+    height: 376px;
+    left: 453px;
+    top: 199px;
+    background: rgba(205, 242, 202, 0.2);
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.ellipse4 {
+    position: absolute;
+    width: 376px;
+    height: 376px;
+    left: 568px;
+    top: 924px;
+    background: rgba(205, 242, 202, 0.2);
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.ellipse5 {
+    position: absolute;
+    width: 302px;
+    height: 302px;
+    left: 1034px;
+    top: 1090px;
+    background: #EDEDED;
+    border-radius: 50%;
+    z-index: -1;
+}

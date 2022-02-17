@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
+import PageArt from './components/PageArt/PageArt';
 import HomePage from './containers/HomePage/HomePage';
 import LearningCentrePage from './containers/LearningCentrePage/LearningCentrePage';
 import HelpPage from './containers/HelpPage/HelpPage';
@@ -19,6 +20,7 @@ function App() {
         </Routes>
       </BrowserRouter>
       <Footer />
+      <PageArt />
     </div>
   );
 }

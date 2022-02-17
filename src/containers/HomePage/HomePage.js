@@ -8,19 +8,19 @@ import './HomePage.css';
 
 export default function HomePage() {
   return (
-      <div className='homePage'>
-        <div className='section' id='intro'>
-          <SectionIntro />
-        </div>
-        <div className='section' id='how-it-works'>
-          <SectionHowItWorks />
-        </div>
-        <div className='section' id='our-mission'>
-          <SectionOurMission />
-        </div>
-        <div className='highlighted' id='join'>
-          <SectionSignUp />
-        </div>
+    <div className='homePage'>
+      <div className='section' id='intro'>
+        <SectionIntro />
       </div>
+      <div className='section' id='how-it-works'>
+        <SectionHowItWorks />
+      </div>
+      <div className='section' id='our-mission'>
+        <SectionOurMission />
+      </div>
+      <div className='highlighted' id='join'>
+        <SectionSignUp />
+      </div>
+    </div>
   );
 }
