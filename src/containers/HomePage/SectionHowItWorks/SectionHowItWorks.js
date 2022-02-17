@@ -23,7 +23,7 @@ export default function SectionHowItWorks() {
             Share your quiz
           </h3>
           <p className='description'>
-            Make your Learner Module accessible by posting it on your personal website, facebook page, Instagram page or anywhere you would like people to see it.
+            Make your Learner Module accessible by posting it on your personal website, Facebook page, Instagram page or anywhere you would like people to see it.
           </p>
         </div>
         <div className='step'>
