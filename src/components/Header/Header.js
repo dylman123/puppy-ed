@@ -4,7 +4,7 @@ import Logo from '../Logo/Logo';
 import './Header.css';
 
 export default function Header() {
-  const { height, width } = useWindowDimensions();
+  const { width } = useWindowDimensions();
   const isMobileViewport = width < WIDTH_VIEWPORT_SMALL;
 
   return isMobileViewport ? (

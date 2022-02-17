@@ -3,7 +3,7 @@ import useWindowDimensions, { WIDTH_VIEWPORT_SMALL } from '../../utils/viewport'
 import './Logo.css';
 
 export default function Logo() {
-  const { height, width } = useWindowDimensions();
+  const { width } = useWindowDimensions();
   const isMobileViewport = width < WIDTH_VIEWPORT_SMALL;
 
   return isMobileViewport ? (
