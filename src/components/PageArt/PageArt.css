@@ -1,5 +1,6 @@
 .pageArt {
-
+    position: static;
+    overflow: hidden;
 }
 
 .ellipse1 {
@@ -55,4 +56,34 @@
     background: #EDEDED;
     border-radius: 50%;
     z-index: -1;
+}
+
+@media screen and (max-width: 768px) {
+    .ellipse2, .ellipse3, .ellipse4, .ellipse5 {
+      left: auto;
+      right: 0;
+    }
+    .ellipse3 {
+        top: 399px;
+        right: 30px;
+    }
+    .ellipse5 {
+        top: 1390px;
+        right: 220px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1300px) {
+    .ellipse2, .ellipse3, .ellipse4, .ellipse5 {
+      left: auto;
+      right: 0;
+    }
+    .ellipse3 {
+        top: 199px;
+        right: 40px;
+    }
+    .ellipse5 {
+        top: 1390px;
+        right: 320px;
+    }
 }
