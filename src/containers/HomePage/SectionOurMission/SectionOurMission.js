@@ -10,7 +10,7 @@ export default function SectionOurMission() {
         <div className='textContainer'>
           <div className='headingsContainer'>
             <h2>
-              For ANKC registered breeders
+              For ANKC registered breeders only
             </h2>
             <h4>
               Why we’re working together
