@@ -12,7 +12,7 @@ export default function LearnerModulePage() {
     return (
         <div className='learnerModulePage'>
             <h2 className='moduleTitle'>{currentModule.title}</h2>
-            <img className='moduleIcon' src={currentModule.imageFile} />
+            <img className='moduleIcon' src={currentModule.imageFile} alt={currentModule.title}/>
             <p className='moduleDescription'>{currentModule.description}</p>
         </div>
     );
