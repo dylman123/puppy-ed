@@ -1,0 +1,8 @@
+.learnerModulePage {
+    margin: 0 20px;
+}
+@media screen and (min-width: 768px) {
+    .learnerModulePage {
+        margin: 0 100px;
+    }
+}
