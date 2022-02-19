@@ -17,7 +17,7 @@ function App() {
         <Routes>
           <Route path='/' element={<HomePage/>} />
           <Route path='/learning-centre' element={<LearningCentrePage />} />
-          <Route path='/learner-module/:slug' element={<LearnerModulePage />} />
+          <Route path='/module/:slug' element={<LearnerModulePage />} />
           <Route path='/help' element={<HelpPage />} />
         </Routes>
       </BrowserRouter>

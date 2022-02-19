@@ -3,7 +3,6 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  background-color: rgba(205, 242, 202, 0.2);
   padding: 2% 40px;
   gap: 20px;
 }
