@@ -10,7 +10,7 @@ export default function LearningCentrePage() {
       <a className='moduleCard' href={`/module/${m.slug}`}>
         <h3 className='cardTitle'>{m.title}</h3>
         <div className='cardIconWrapper'>
-          <img src={m.imageFile} className='cardIcon' />
+          <img src={m.imageFile} className='cardIcon' alt={m.title}/>
         </div>
         <p className='cardDescription'>
           {m.description}
