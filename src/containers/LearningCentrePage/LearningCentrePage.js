@@ -25,17 +25,17 @@ export default function LearningCentrePage() {
 
         {/* <h2 className='titleGettingStarted'>Getting Started</h2> */}
         {/* <div className='moduleCards'>
-          {modules.filter(m => m.section === 'getting-started').map(mapModuleToCard)}
+          {modules.filter(m => m.category === 'getting-started').map(mapModuleToCard)}
         </div> */}
 
         <h2 className='titleDogBreeds'>Dog Breeds</h2>
         <div className='moduleCards'>
-          {modules.filter(m => m.section === 'dog-breeds').map(mapModuleToCard)}
+          {modules.filter(m => m.category === 'dog-breeds').map(mapModuleToCard)}
         </div>
 
         <h2 className='titleBasics'>Basics</h2>
         <div className='moduleCards'>
-          {modules.filter(m => m.section === 'basics').map(mapModuleToCard)}
+          {modules.filter(m => m.category === 'basics').map(mapModuleToCard)}
         </div>
 
       </div>
