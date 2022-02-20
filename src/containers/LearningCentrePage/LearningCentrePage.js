@@ -23,9 +23,14 @@ export default function LearningCentrePage() {
   return (
       <div className='learningCentrePage'>
 
-        <h2 className='titleGettingStarted'>Getting Started</h2>
-        <div className='moduleCards'>
+        {/* <h2 className='titleGettingStarted'>Getting Started</h2> */}
+        {/* <div className='moduleCards'>
           {modules.filter(m => m.section === 'getting-started').map(mapModuleToCard)}
+        </div> */}
+
+        <h2 className='titleDogBreeds'>Dog Breeds</h2>
+        <div className='moduleCards'>
+          {modules.filter(m => m.section === 'dog-breeds').map(mapModuleToCard)}
         </div>
 
         <h2 className='titleBasics'>Basics</h2>
@@ -33,10 +38,6 @@ export default function LearningCentrePage() {
           {modules.filter(m => m.section === 'basics').map(mapModuleToCard)}
         </div>
 
-        <h2 className='titleDogBreeds'>Dog Breeds</h2>
-        <div className='moduleCards'>
-          {modules.filter(m => m.section === 'dog-breeds').map(mapModuleToCard)}
-        </div>
       </div>
   );
 }

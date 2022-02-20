@@ -8,17 +8,17 @@ export default function SectionIntro() {
     <div className='responsiveContainer mobile-column-reverse'>
       <div className='headingsContainer'>
         <h1>
-          ANKC registered breeders educating the wider community
+          Community driven education by ANKC registered breeders
         </h1>
         <h3>
-          Write your own learner module for potential puppy owners to complete.
+          Contribute your expertise to a growing knowledge base about purebred dogs.
         </h3>
         <div className='ctaContainer'>
-          <a className='ctaPrimary' href='/#join'>
-            Become an author
+          <a className='ctaPrimary' href='/learning-centre'>
+            View breeds
           </a>
-          <a className='ctaSecondary' href='/learning-centre'>
-            view learner modules
+          <a className='ctaSecondary' href='/#join'>
+            Become an author
           </a>
         </div>
       </div>

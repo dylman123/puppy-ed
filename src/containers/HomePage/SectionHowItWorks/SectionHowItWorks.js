@@ -9,30 +9,39 @@ export default function SectionHowItWorks() {
       </h2>
       <div className='steps'>
         <div className='step'>
-          <span class="material-icons-outlined md-36 icon icon1">edit</span>
+          <span class="material-icons-outlined md-36 icon icon1">visibility</span>
           <h3 className='title'>
-            Write your quiz
+            View quizzes
           </h3>
           <p className='description'>
-            Write a learner module on your breed or a general dog ownership related topic. As the author, you will be credited for your work on the website.
+            Review the existing quizzes about purebred dogs on this website. Comment to leave your feedback.
           </p>
         </div>
         <div className='step'>
-          <span class="material-icons-outlined md-36 icon icon2">send</span>
+          <span class="material-icons-outlined md-36 icon icon2">edit</span>
+          <h3 className='title'>
+            Write your own quiz
+          </h3>
+          <p className='description'>
+            Write a quiz on your breed or a general dog ownership related topic. As the author, you will be credited for your work on the website.
+          </p>
+        </div>
+        <div className='step'>
+          <span class="material-icons-outlined md-36 icon icon3">send</span>
           <h3 className='title'>
             Share your quiz
           </h3>
           <p className='description'>
-            Make your Learner Module accessible by posting it on your personal website, Facebook page, Instagram page or anywhere you would like people to see it.
+            Make your quiz accessible by posting it on your personal website, Facebook page, Instagram page or anywhere you would like people to see it.
           </p>
         </div>
         <div className='step'>
-          <span class="material-icons-outlined md-36 icon icon3">emoji_events</span>
+          <span class="material-icons-outlined md-36 icon icon4">emoji_events</span>
           <h3 className='title'>
             Receive results
           </h3>
           <p className='description'>
-            Receive the results of your potential puppy owners via an email.
+            Receive the quiz results of your potential puppy owners via an email.
           </p>
         </div>
       </div>
