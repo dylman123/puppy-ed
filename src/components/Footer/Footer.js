@@ -10,7 +10,7 @@ export default function Footer() {
           <Logo />
         </a>
         <p>
-          ANKC registered breeders educating the wider community.
+          Community driven education by ANKC registered breeders.
         </p>
         <div className='ctaFooter'>
           <a className='ctaPrimary' href='/#join'>

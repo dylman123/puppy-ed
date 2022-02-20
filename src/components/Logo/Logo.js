@@ -9,7 +9,7 @@ export default function Logo() {
   return isMobileViewport ? (
     <div className='logo mobile-logo'>
       <span class="material-icons-outlined">school</span>
-      <div>Puppy Ed</div>
+      {/* <div>Puppy Ed</div> */}
     </div>
   ) : (
     <div className='logo'>
