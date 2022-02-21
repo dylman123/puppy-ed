@@ -11,7 +11,7 @@ export default function SectionIntro() {
           Community driven education by ANKC registered breeders
         </h1>
         <h3>
-          Contribute your expertise to a growing knowledge base about purebred dogs.
+          Write your own learner quiz for potential puppy owners to complete.
         </h3>
         <div className='ctaContainer'>
           <a className='ctaPrimary' href='/learning-centre'>
