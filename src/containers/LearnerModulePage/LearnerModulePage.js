@@ -44,7 +44,7 @@ export default function LearnerModulePage() {
     const quizSections = currentModule.category === 'dog-breeds' ? (
         sectionHeadings.map(h => {
             return (
-                <div className='section'>
+                <div className='quizSection'>
                     <h3>{h.label}</h3>
                     <p>{currentModule.sections ? currentModule.sections[h.key] : null}</p>
                     <div className='comments'>Comments</div>
@@ -54,12 +54,18 @@ export default function LearnerModulePage() {
     ) : null;
 
     return (
-        <div className='learnerModulePage'>
-            <h2 className='moduleTitle'>{currentModule.title}</h2>
-            <img className='moduleIcon' src={currentModule.imageFile} alt={currentModule.title}/>
+        <div className='learnerModulePage section'>
+            <div className='moduleHeading'>
+                <h2 className='moduleTitle'>{currentModule.title}</h2>
+                <img className='moduleIcon' src={currentModule.imageFile} alt={currentModule.title}/>
+            </div>
+            
             <p className='moduleDescription'>{currentModule.description}</p>
             { quizSections }
-            
+            <a className='buttonPrimary quizLink' rel="noopener noreferrer" target="_blank" href={currentModule.quizUrl}>
+                <span class="material-icons-outlined md-36 icon">visibility</span>
+                <p className='quizLinkText'>View this quiz</p>
+            </a>
         </div>
     );
 }
