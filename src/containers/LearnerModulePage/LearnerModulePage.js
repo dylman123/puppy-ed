@@ -59,6 +59,7 @@ export default function LearnerModulePage() {
             <img className='moduleIcon' src={currentModule.imageFile} alt={currentModule.title}/>
             <p className='moduleDescription'>{currentModule.description}</p>
             { quizSections }
+            
         </div>
     );
 }

@@ -3,16 +3,21 @@
 }
 @media screen and (min-width: 768px) {
     .learningCentrePage {
-        margin: 0 70px;
+        margin: 0 150px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .learningCentrePage {
+        margin: 0 200px;
     }
 }
 
 
 .moduleCards {
-    margin: 0 0 60px 0;
+    margin: 0 auto 60px auto;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
 }
 @media screen and (min-width: 768px) {
     .moduleCards {
