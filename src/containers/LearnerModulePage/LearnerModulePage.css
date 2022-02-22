@@ -1,5 +1,5 @@
 .learnerModulePage {
-    margin: 0 20px;
+    margin: 0 0;
 }
 @media screen and (min-width: 768px) {
     .learnerModulePage {
@@ -37,4 +37,5 @@
 .sourceLink {
     color: rgb(125, 125, 197);
     text-decoration: underline;
+    font-size: smaller;
 }
