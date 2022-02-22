@@ -47,6 +47,7 @@ export const modules = [
       slug: "health",
       imageFile: image004,
       category: "basics",
+      quizUrl: "https://docs.google.com/forms/d/e/1FAIpQLScFIccDSTO3SoT34GhXlHi27bD6bCF9nRlYivCKEIyRu7yODQ/viewform?usp=sf_link",
     },
     {
       title: "Nutrition",
@@ -54,6 +55,7 @@ export const modules = [
       slug: "nutrition",
       imageFile: image005,
       category: "basics",
+      quizUrl: "https://docs.google.com/forms/d/e/1FAIpQLSdg7QVmCqSKIAjpj-eUjiTU_IrfVDKzCO-gFRjqNfpcxvUv-Q/viewform?usp=sf_link",
     },
     {
       title: "Exercise",
@@ -77,7 +79,7 @@ export const modules = [
           "training": "The training of the Labrador Retriever.",
           "grooming": "The grooming of the Labrador Retriever.",
       },
-      quizUrl: "",
+      quizUrl: "https://docs.google.com/forms/d/e/1FAIpQLSfgaBuvemByt1SoYKXaJbPnPc5K_ogAHDm-zr5lb5cs0CyCSg/viewform?usp=sf_link",
     },
     {
       title: "Golden Retriever",
@@ -92,6 +94,7 @@ export const modules = [
       description: "This quiz is aimed at teaching the wider community about the French Bulldog. Provide your feedback on the information in this quiz!",
       imageFile: image008,
       category: "dog-breeds",
+      quizUrl: "https://docs.google.com/forms/d/e/1FAIpQLSdvvfzSrhMlidnIeJecUgSMgsjbVtpRJ6l9AHEKGkQx8pzV7Q/viewform?usp=sf_link",
     },
     {
       title: "Pug",
@@ -111,7 +114,8 @@ export const modules = [
         displayName: "Lisa Wallace",
         prefix: "Nowstarin Rottweilers Australia",
         profileImage: lisa_image,
-      }
+      },
+      quizUrl: "https://docs.google.com/forms/d/e/1FAIpQLSdHjvJ9eyEE0uegLgw5EBAHPzS1xbsqkpVNwaaZmfeQFaG6ZA/viewform?usp=sf_link",
     },
     {
       title: "Papillon & Phalene",
@@ -154,6 +158,7 @@ export const modules = [
       description: "This quiz is aimed at teaching the wider community about the Scottish Terrier. Provide your feedback on the information in this quiz!",
       imageFile: image016,
       category: "dog-breeds",
+      quizUrl: "https://docs.google.com/forms/d/e/1FAIpQLSeNSkaS7rrXvuW35-kH7nQIwiqt6HxbM_M5TINpzB5JIZsG2Q/viewform?usp=sf_link",
     },
     {
       title: "Dachshund",
