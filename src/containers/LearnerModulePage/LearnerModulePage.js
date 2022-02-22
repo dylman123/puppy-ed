@@ -40,13 +40,30 @@ export default function LearnerModulePage() {
     let { slug } = useParams();
 
     const currentModule = modules.find(m => m.slug === slug);
+    const hasSectionContent = !!currentModule.sections;
 
     const quizSections = currentModule.category === 'dog-breeds' ? (
         sectionHeadings.map(h => {
+            const section = hasSectionContent ? currentModule.sections[h.key] : null;
             return (
                 <div className='quizSection'>
+
+                    {/* Section heading */}
                     <h3>{h.label}</h3>
-                    <p>{currentModule.sections ? currentModule.sections[h.key] : null}</p>
+
+                    {/* Section text */}
+                    { section ? (
+                        <p>{section.text}</p>
+                    ) : null }
+
+                    {/* Section source */}
+                    { section && section.source ? (
+                        <a rel="noopener noreferrer" target="_blank" href={section.source}>
+                            <p className='sourceLink'>Source: {section.source}</p>
+                        </a>
+                    ) : null }
+
+                    {/* Section comments */}
                     <div className='comments'>Comments</div>
                 </div>
             )

@@ -33,3 +33,8 @@
 .quizLinkText {
     margin: 0 15px 0 0;
 }
+
+.sourceLink {
+    color: rgb(125, 125, 197);
+    text-decoration: underline;
+}
