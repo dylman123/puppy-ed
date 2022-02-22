@@ -43,7 +43,7 @@ export const modules = [
     },
     {
       title: "Health",
-      description: "We want to ensure healthy and happy lives for our pups. Enrich your knowledge about vaccinations, signs of poor health, and preventative measure you can take for your pup.",
+      description: "We want to ensure healthy and happy lives for our pups. This quiz is about vaccinations, signs of poor health, and preventative measure you can take for your pup.",
       slug: "health",
       imageFile: image004,
       category: "basics",
@@ -51,7 +51,7 @@ export const modules = [
     },
     {
       title: "Nutrition",
-      description: "Dogs need a healthy and balanced diet to ensure their health and happiness. What they eat is different to what we eat. Learn all about providing your pup with a healthy diet.",
+      description: "Dogs need a healthy and balanced diet to ensure their health and happiness. What they eat is different to what we eat. This quiz is about providing your pup with a healthy diet.",
       slug: "nutrition",
       imageFile: image005,
       category: "basics",
