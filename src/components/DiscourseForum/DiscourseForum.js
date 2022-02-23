@@ -5,7 +5,7 @@ export default function DiscourseForum(topicId) {
     // let { topicId } = useParams();
     const id = topicId;
 
-    useEffect(() => {
+    useEffect(id => {
 
         window.DiscourseEmbed = {
             discourseUrl: 'https://puppyed.trydiscourse.com/',
