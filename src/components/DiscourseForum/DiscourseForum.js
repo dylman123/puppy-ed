@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 
 export default function DiscourseForum() {
-    let { topicId } = useParams();
+    // let { topicId } = useParams();
 
     useEffect(() => {
         window.DiscourseEmbed = {
