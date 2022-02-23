@@ -19,7 +19,7 @@ export default function DiscourseForum(topicId) {
 
     return (
         <div>
-            <div id={`discourse-comments-${topicId}`}></div>
+            <div id='discourse-comments'></div>
         </div>
     );
 }
