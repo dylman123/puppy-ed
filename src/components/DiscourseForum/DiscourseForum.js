@@ -3,6 +3,7 @@ import { useEffect } from 'react';
 
 export default function DiscourseForum(topicId) {
     // let { topicId } = useParams();
+    console.log(topicId)
 
     useEffect(() => {
         window.DiscourseEmbed = {
