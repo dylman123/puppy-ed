@@ -7,7 +7,7 @@ export default function DiscourseForum() {
     useEffect(() => {
         window.DiscourseEmbed = {
             discourseUrl: 'https://puppyed.trydiscourse.com/',
-            topicId: 14,
+            topicId: 15,
         };
 
         const d = document.createElement('script');
