@@ -2,14 +2,12 @@ import { useEffect } from 'react';
 // import { useParams } from 'react-router-dom';
 
 export default function DiscourseForum(topicId) {
-    // let { topicId } = useParams();
-    const id = topicId;
 
-    useEffect(id => {
+    useEffect(topicId => {
 
         window.DiscourseEmbed = {
             discourseUrl: 'https://puppyed.trydiscourse.com/',
-            topicId: id,
+            topicId,
         };
 
         const d = document.createElement('script');
@@ -17,11 +15,11 @@ export default function DiscourseForum(topicId) {
         d.async = true;
         d.src = window.DiscourseEmbed.discourseUrl + 'javascripts/embed.js';
         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
-    }, [id]);
+    }, [topicId]);
 
     return (
         <div>
-            <div id="discourse-comments"></div>
+            <div id={`discourse-comments-${topicId}`}></div>
         </div>
     );
 }
