@@ -3,7 +3,9 @@ import { useEffect } from 'react';
 
 export default function DiscourseForum(topicId) {
 
-    useEffect(topicId => {
+    useEffect(() => {
+
+        console.log({topicId})
 
         window.DiscourseEmbed = {
             discourseUrl: 'https://puppyed.trydiscourse.com/',
@@ -15,7 +17,7 @@ export default function DiscourseForum(topicId) {
         d.async = true;
         d.src = window.DiscourseEmbed.discourseUrl + 'javascripts/embed.js';
         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
-    }, []);
+    }, [topicId]);
 
     return (
         <div>
