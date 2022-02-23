@@ -1,6 +1,9 @@
 import React from 'react';
+import { useParams } from 'react-router-dom';
 import { modules } from '../../assets/learner-modules/modules';
-import { useParams } from "react-router-dom";
+import DiscourseForum from '../../components/DiscourseForum/DiscourseForum';
+// import { useParams } from "react-router-dom";
+// import useScript from '../../utils/useScript';
 
 import './LearnerModulePage.css';
 
@@ -37,8 +40,8 @@ const sectionHeadings = [
 ]
 
 export default function LearnerModulePage() {
-    let { slug } = useParams();
 
+    let { slug } = useParams();
     const currentModule = modules.find(m => m.slug === slug);
     const hasSectionContent = !!currentModule.sections;
 
@@ -64,7 +67,8 @@ export default function LearnerModulePage() {
                     ) : null }
 
                     {/* Section comments */}
-                    <div className='comments'>Comments</div>
+                    <DiscourseForum topicId={14} />
+
                 </div>
             )
         })
