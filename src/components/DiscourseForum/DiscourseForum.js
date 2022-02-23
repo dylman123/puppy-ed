@@ -1,13 +1,13 @@
 import { useEffect } from 'react';
 // import { useParams } from 'react-router-dom';
 
-export default function DiscourseForum() {
+export default function DiscourseForum(topicId) {
     // let { topicId } = useParams();
 
     useEffect(() => {
         window.DiscourseEmbed = {
             discourseUrl: 'https://puppyed.trydiscourse.com/',
-            topicId: 15,
+            topicId,
         };
 
         const d = document.createElement('script');
