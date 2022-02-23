@@ -1,12 +1,9 @@
 import { useEffect } from 'react';
-// import { useParams } from 'react-router-dom';
 
 export default function DiscourseForum(props) {
     const { topicId } = props;
 
     useEffect(() => {
-        console.log(topicId)
-
         window.DiscourseEmbed = {
             discourseUrl: 'https://puppyed.trydiscourse.com/',
             topicId,
