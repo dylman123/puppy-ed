@@ -4,12 +4,12 @@ import { useEffect } from 'react';
 export default function DiscourseForum(topicId) {
 
     useEffect(() => {
-
-        console.log({topicId})
+        const id = topicId;
+        console.log(topicId, id)
 
         window.DiscourseEmbed = {
             discourseUrl: 'https://puppyed.trydiscourse.com/',
-            topicId,
+            topicId: id,
         };
 
         const d = document.createElement('script');
