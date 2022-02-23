@@ -3,12 +3,13 @@ import { useEffect } from 'react';
 
 export default function DiscourseForum(topicId) {
     // let { topicId } = useParams();
-    console.log(topicId)
 
     useEffect(() => {
+        const id = topicId;
+
         window.DiscourseEmbed = {
             discourseUrl: 'https://puppyed.trydiscourse.com/',
-            topicId: topicId,
+            topicId: id,
         };
 
         const d = document.createElement('script');
