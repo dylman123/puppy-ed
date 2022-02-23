@@ -17,7 +17,7 @@ export default function DiscourseForum(topicId) {
         d.async = true;
         d.src = window.DiscourseEmbed.discourseUrl + 'javascripts/embed.js';
         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
-    }, [topicId]);
+    }, [id]);
 
     return (
         <div>
