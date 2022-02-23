@@ -7,7 +7,8 @@ export default function DiscourseForum(topicId) {
 
         window.DiscourseEmbed = {
             discourseUrl: 'https://puppyed.trydiscourse.com/',
-            topicId,
+            // topicId,
+            discourseEmbedUrl: 'https://puppyed.trydiscourse.com/t/origin-of-the-labrador-retriever/14',
         };
 
         const d = document.createElement('script');
