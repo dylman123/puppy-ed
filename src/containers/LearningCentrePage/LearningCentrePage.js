@@ -7,7 +7,7 @@ export default function LearningCentrePage() {
 
   const mapModuleToCard = m => {
     return (
-      <a className='moduleCard' href={`/quiz/${m.slug}`}>
+      <a className='moduleCard' href={`/quiz/${m.slug}/origin`}>
         <h3 className='cardTitle'>{m.title}</h3>
         <div className='cardIconWrapper'>
           <img src={m.imageFile} className='cardIcon' alt={m.title}/>

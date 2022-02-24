@@ -41,38 +41,37 @@ const sectionHeadings = [
 
 export default function LearnerModulePage() {
 
-    let { slug } = useParams();
+    let { slug, tab } = useParams();
     const currentModule = modules.find(m => m.slug === slug);
-    const hasSectionContent = !!currentModule.sections;
 
-    const quizSections = currentModule.category === 'dog-breeds' ? (
-        sectionHeadings.map(h => {
-            const section = hasSectionContent ? currentModule.sections[h.key] : null;
-            return (
-                <div className='quizSection'>
+    const section = !currentModule.sections ? null : currentModule.sections[tab];
+    const sectionHeading = sectionHeadings.filter(h => h.key === tab)[0];
+    const quizSection =  !section ? null : (
 
-                    {/* Section heading */}
-                    <h3>{h.label}</h3>
+        <div className='quizSection'>
 
-                    {/* Section text */}
-                    { section ? (
-                        <p>{section.text}</p>
-                    ) : null }
+            {/* Section heading */}
+            { !sectionHeading ? null : (
+                <h3>{sectionHeading.label}</h3>
+            )}
 
-                    {/* Section source */}
-                    { section && section.source ? (
-                        <a rel="noopener noreferrer" target="_blank" href={section.source}>
-                            <p className='sourceLink'>Source: {section.source}</p>
-                        </a>
-                    ) : null }
+            {/* Section text */}
+            { !section ? null : (
+                <p>{section.text}</p>
+            )}
 
-                    {/* Section comments */}
-                    <DiscourseForum topicId={14} />
+            {/* Section source */}
+            { section && section.source ? (
+                <a rel="noopener noreferrer" target="_blank" href={section.source}>
+                    <p className='sourceLink'>Source: {section.source}</p>
+                </a>
+            ) : null }
 
-                </div>
-            )
-        })
-    ) : null;
+            {/* Section comments */}
+            <DiscourseForum topicId={14} />
+
+        </div>
+    )
 
     return (
         <div className='learnerModulePage section'>
@@ -82,7 +81,7 @@ export default function LearnerModulePage() {
             </div>
             
             <p className='moduleDescription'>{currentModule.description}</p>
-            { quizSections }
+            { quizSection }
             <a className='buttonPrimary quizLink' rel="noopener noreferrer" target="_blank" href={currentModule.quizUrl}>
                 <span class="material-icons-outlined md-36 icon">visibility</span>
                 <p className='quizLinkText'>View this quiz</p>
