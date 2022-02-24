@@ -69,7 +69,9 @@ export default function LearnerModulePage() {
 
             {/* Section comments */}
             { section && section.topicId ? (
-                <DiscourseForum topicId={section.topicId} />
+                <div className='discourseComments'>
+                    <DiscourseForum topicId={section.topicId} />
+                </div>
             ) : null }
 
         </div>
