@@ -42,12 +42,34 @@ const sectionHeadings = [
 export default function LearnerModulePage() {
 
     let { slug, tab } = useParams();
+    
     const currentModule = modules.find(m => m.slug === slug);
 
-    const section = !currentModule.sections ? null : currentModule.sections[tab];
-    const sectionHeading = sectionHeadings.filter(h => h.key === tab)[0];
-    const quizSection =  !section ? null : (
+    const navLinkStyle = h => h.key === tab ? 'navLinkSelected' : 'navLinkUnselected';
 
+    const dynamicLinkId = h => h.key === tab ? 'tab' : '';
+
+    const navLinks = (
+        <div className='navLinks'>
+            { sectionHeadings.map(h => {
+                return (
+                    <a
+                      id={dynamicLinkId(h)}
+                      className={navLinkStyle(h)} 
+                      href={`/quiz/${slug}/${h.key}#tab`}
+                    >
+                      {h.label}
+                    </a>
+                )
+            }) }
+        </div>
+    );
+
+    const section = !currentModule.sections ? null : currentModule.sections[tab];
+
+    const sectionHeading = sectionHeadings.filter(h => h.key === tab)[0];
+
+    const quizSection =  !section ? null : (
         <div className='quizSection'>
 
             {/* Section heading */}
@@ -79,13 +101,18 @@ export default function LearnerModulePage() {
 
     return (
         <div className='learnerModulePage section'>
+
             <div className='moduleHeading'>
                 <h2 className='moduleTitle'>{currentModule.title}</h2>
                 <img className='moduleIcon' src={currentModule.imageFile} alt={currentModule.title}/>
             </div>
             
             <p className='moduleDescription'>{currentModule.description}</p>
+            
+            { navLinks }
+
             { quizSection }
+            
             <a className='buttonPrimary quizLink' rel="noopener noreferrer" target="_blank" href={currentModule.quizUrl}>
                 <span class="material-icons-outlined md-36 icon">visibility</span>
                 <p className='quizLinkText'>View this quiz</p>
