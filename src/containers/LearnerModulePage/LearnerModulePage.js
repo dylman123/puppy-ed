@@ -70,15 +70,15 @@ export default function LearnerModulePage() {
 
     const sectionHeading = sectionHeadings.filter(h => h.key === tab)[0];
 
-    const disqusShortname = "puppyed"
+    const disqusShortname = "puppyed";
     const disqusConfig = {
       url: "https://puppyed.com.au",
       identifier: `${slug}-${tab}`,
       title: `${sectionHeading.label} of the ${currentModule.title}`,
-    }
+    };
 
-    const quizSection =  !section ? null : (
-        <div className='quizSection'>
+    const sectionInformation =  !section ? null : (
+        <div className='sectionInformation'>
 
             {/* Section heading */}
             { !sectionHeading ? null : (
@@ -97,16 +97,6 @@ export default function LearnerModulePage() {
                 </a>
             ) : null }
 
-            {/* Section comments */}
-            { section && section.topicId ? (
-                <div className='disqusComments'>
-                    <Disqus.DiscussionEmbed
-                        shortname={disqusShortname}
-                        config={disqusConfig}
-                    />
-                </div>
-            ) : null }
-
         </div>
     )
 
@@ -122,12 +112,20 @@ export default function LearnerModulePage() {
             
             { navLinks }
 
-            { quizSection }
+            { sectionInformation }
             
             <a className='buttonPrimary quizLink' rel="noopener noreferrer" target="_blank" href={currentModule.quizUrl}>
                 <span class="material-icons-outlined md-36 icon">visibility</span>
                 <p className='quizLinkText'>View this quiz</p>
             </a>
+
+            <div className='disqusComments'>
+                <Disqus.DiscussionEmbed
+                    shortname={disqusShortname}
+                    config={disqusConfig}
+                />
+            </div>
+            
         </div>
     );
 }
