@@ -1,7 +1,8 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import { modules } from '../../assets/learner-modules/modules';
-import DiscourseForum from '../../components/DiscourseForum/DiscourseForum';
+import Disqus from "disqus-react";
+// import DiscourseForum from '../../components/DiscourseForum/DiscourseForum';
 // import { useParams } from "react-router-dom";
 // import useScript from '../../utils/useScript';
 
@@ -69,6 +70,13 @@ export default function LearnerModulePage() {
 
     const sectionHeading = sectionHeadings.filter(h => h.key === tab)[0];
 
+    const disqusShortname = "puppyed"
+    const disqusConfig = {
+      url: "https://puppyed.com.au",
+      identifier: `${slug}-${tab}`,
+      title: `${sectionHeading.label} of the ${currentModule.title}`,
+    }
+
     const quizSection =  !section ? null : (
         <div className='quizSection'>
 
@@ -91,8 +99,11 @@ export default function LearnerModulePage() {
 
             {/* Section comments */}
             { section && section.topicId ? (
-                <div className='discourseComments'>
-                    <DiscourseForum topicId={section.topicId} />
+                <div className='disqusComments'>
+                    <Disqus.DiscussionEmbed
+                        shortname={disqusShortname}
+                        config={disqusConfig}
+                    />
                 </div>
             ) : null }
 
