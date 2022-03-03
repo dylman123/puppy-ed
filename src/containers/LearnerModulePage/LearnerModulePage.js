@@ -50,6 +50,18 @@ export default function LearnerModulePage() {
 
     const dynamicLinkId = h => h.key === tab ? 'tab' : '';
 
+
+    const moduleHeading = (
+        <div className='moduleHeading'>
+            <h2 className='moduleTitle'>{currentModule.title}</h2>
+            <img className='moduleIcon' src={currentModule.imageFile} alt={currentModule.title}/>
+        </div>
+    );
+
+    const moduleDescription = (
+        <p className='moduleDescription'>{currentModule.description}</p>
+    );
+
     const navLinks = (
         <div className='navLinks'>
             { sectionHeadings.map(h => {
@@ -72,7 +84,7 @@ export default function LearnerModulePage() {
 
     const disqusShortname = "puppyed";
     const disqusConfig = {
-      url: "https://puppyed.com.au",
+      url: `https://puppyed.com.au/quiz/${slug}/${tab}`,
       identifier: `${slug}-${tab}`,
       title: `${sectionHeading.label} of the ${currentModule.title}`,
     };
@@ -100,32 +112,33 @@ export default function LearnerModulePage() {
         </div>
     )
 
+    const quizLink = (
+        <a className='buttonPrimary quizLink' rel="noopener noreferrer" target="_blank" href={currentModule.quizUrl}>
+            <span class="material-icons-outlined md-36 icon">visibility</span>
+            <p className='quizLinkText'>View this quiz</p>
+        </a>
+    );
+
+    const comments = (
+        <div className='disqusComments'>
+            <Disqus.DiscussionEmbed
+                shortname={disqusShortname}
+                config={disqusConfig}
+            />
+        </div>
+    );
+
+    console.log(comments)
+
+
     return (
         <div className='learnerModulePage section'>
-
-            <div className='moduleHeading'>
-                <h2 className='moduleTitle'>{currentModule.title}</h2>
-                <img className='moduleIcon' src={currentModule.imageFile} alt={currentModule.title}/>
-            </div>
-            
-            <p className='moduleDescription'>{currentModule.description}</p>
-            
+            { moduleHeading }
+            { moduleDescription }
             { navLinks }
-
             { sectionInformation }
-            
-            <a className='buttonPrimary quizLink' rel="noopener noreferrer" target="_blank" href={currentModule.quizUrl}>
-                <span class="material-icons-outlined md-36 icon">visibility</span>
-                <p className='quizLinkText'>View this quiz</p>
-            </a>
-
-            <div className='disqusComments'>
-                <Disqus.DiscussionEmbed
-                    shortname={disqusShortname}
-                    config={disqusConfig}
-                />
-            </div>
-            
+            { quizLink }
+            { comments }
         </div>
     );
 }
