@@ -84,7 +84,7 @@ export default function LearnerModulePage() {
 
     const disqusShortname = "puppyed";
     const disqusConfig = {
-      url: `https://puppyed.com.au/quiz/${slug}/${tab}`,
+      url: `https://dev.puppyed.com.au/quiz/${slug}/${tab}`,
       identifier: `${slug}-${tab}`,
       title: `${sectionHeading.label} of the ${currentModule.title}`,
     };
@@ -127,9 +127,6 @@ export default function LearnerModulePage() {
             />
         </div>
     );
-
-    console.log(comments)
-
 
     return (
         <div className='learnerModulePage section'>
