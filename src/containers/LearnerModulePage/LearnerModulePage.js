@@ -1,7 +1,7 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import { modules } from '../../assets/learner-modules/modules';
-import Disqus from "disqus-react";
+import { DiscussionEmbed } from "disqus-react";
 // import DiscourseForum from '../../components/DiscourseForum/DiscourseForum';
 // import { useParams } from "react-router-dom";
 // import useScript from '../../utils/useScript';
@@ -42,7 +42,7 @@ const sectionHeadings = [
 
 export default function LearnerModulePage() {
 
-    let { slug, tab } = useParams();
+    var { slug, tab } = useParams();
     
     const currentModule = modules.find(m => m.slug === slug);
 
@@ -84,7 +84,7 @@ export default function LearnerModulePage() {
 
     const disqusShortname = "puppyed";
     const disqusConfig = {
-      url: `https://dev.puppyed.com.au/quiz/${slug}/${tab}`,
+      url: `https://puppyed.com.au/quiz/${slug}/${tab}`,
       identifier: `${slug}-${tab}`,
       title: `${sectionHeading.label} of the ${currentModule.title}`,
     };
@@ -121,7 +121,7 @@ export default function LearnerModulePage() {
 
     const comments = (
         <div className='disqusComments'>
-            <Disqus.DiscussionEmbed
+            <DiscussionEmbed
                 shortname={disqusShortname}
                 config={disqusConfig}
             />
@@ -134,8 +134,8 @@ export default function LearnerModulePage() {
             { moduleDescription }
             { navLinks }
             { sectionInformation }
-            { quizLink }
             { comments }
+            { quizLink }
         </div>
     );
 }
