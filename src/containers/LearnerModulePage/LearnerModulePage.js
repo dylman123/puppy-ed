@@ -2,9 +2,7 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import { modules } from '../../assets/learner-modules/modules';
 import { DiscussionEmbed } from "disqus-react";
-// import DiscourseForum from '../../components/DiscourseForum/DiscourseForum';
-// import { useParams } from "react-router-dom";
-// import useScript from '../../utils/useScript';
+import { BASE_URL, ENV, DEV } from '../../config';
 
 import './LearnerModulePage.css';
 
@@ -83,10 +81,13 @@ export default function LearnerModulePage() {
     const sectionHeading = sectionHeadings.filter(h => h.key === tab)[0];
 
     const disqusShortname = "puppyed";
+
     const disqusConfig = {
-      url: `https://puppyed.com.au/quiz/${slug}/${tab}`,
-      identifier: `${slug}-${tab}`,
-      title: `${sectionHeading.label} of the ${currentModule.title}`,
+      url: `${BASE_URL}/quiz/${slug}/${tab}`,
+      identifier: `${slug}-${tab}-${ENV}`,
+      title: DEV ?
+        `${sectionHeading.label} of the ${currentModule.title} (DEV)` :
+        `${sectionHeading.label} of the ${currentModule.title}`,
     };
 
     const sectionInformation =  !section ? null : (
