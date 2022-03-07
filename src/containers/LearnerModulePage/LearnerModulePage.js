@@ -53,7 +53,7 @@ export default function LearnerModulePage() {
         <div className='moduleHeading'>
             <h2 className='moduleTitle'>{currentModule.title}</h2>
             <img className='moduleIcon' src={currentModule.imageFile} alt={currentModule.title}/>
-            {AuthorCard(currentModule.author)}
+            {!currentModule.author ? null : AuthorCard(currentModule.author)}
         </div>
     );
 
