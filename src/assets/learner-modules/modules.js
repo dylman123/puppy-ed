@@ -388,6 +388,35 @@ export const modules = [
       slug: "dachshund",
       description: "This information is from our Dachshund quiz - aimed at teaching the wider community about the breed. Please review and provide feedback on the information in order to make our quiz the most accurate and extensive that it can be.",
       imageFile: image018,
-    //   category: "dog-breeds",
+      category: "dog-breeds",
+      quizUrl: "https://docs.google.com/forms/d/e/1FAIpQLSfyWjBYgG6OdKIQu58k0ygkuEym20CCm2qPz4vGOVPAa-3PVA/viewform",
+      sections: {
+        "origin": {
+          text: "Short legged, long bodied hounds of Dachshund type were recorded in carvings in Egyptian monuments as far back as the 15th century BC, and there is evidence that the English, as well as the Germans and Italians, had a similar hunting breed back in the 15th and 16th centuries. The breed was standardised in Germany where the dogs were used to enter badger dens, an exercise which required a short, powerful legs and a long body. Dachshunds still retain the instinct and excel in Earth-dog sports.",
+          source: "https://www.dogsnsw.org.au/Breeds/browse-all-breeds/216/Dachshund-Smooth-Haired-&-Miniature-Smooth-Haired/",
+        },
+        "fun-fact": {
+          text: "“Dachshund” is a German word meaning “badger dog”. And, as the breed name suggests, the Dachshund was developed to enthusiastically dig his way into a badger den and dispatch its occupant.",
+        },
+        "behaviour": {
+          text: "Intelligent, courageous, good tempered, determined. The varieties differ a little in temperament. The Miniature Smooth Haired Dachshunds tend to be more aloof and wary than the other varieties and are generally very discerning in whom they like or dislike. A Dachshund wants to be with you. They are full of character, quick in attack and defence, intelligent, defiant, but faithful to their family. Dachshunds can be stubborn but once trained, excellent guard and house dogs, peaceable with their own variety and can be kept in groups.",
+          source: "https://dogsvictoria.org.au/family-pet/dogs-and-puppies/buying-a-puppy/breed-information-and-registered-breeders/dachshund-(miniature-smooth-haired)/",
+        },
+        "health": {
+          text: "The breed generally suffers few health problems providing they are kept well exercised and fed a healthy, balanced diet. DNA testing for cord1 PRA (PRA is a general term for a group of diseases causing degeneration of the retina, leading to a loss of vision) has helped ensure there are very few cases of blindness from this genetic mutation. This disease is recessive, meaning that a pup must inherit the gene from both parents to exhibit any symptoms. However, potential breeding partners should be tested prior to mating to ensure they do not have the gene.\n\nOn average, they live to 12 years old and it is not unusual for them to live well beyond 15. As a dwarf breed, they have an increased risk of back problems (IVDD). Research by the RVC in 2013 suggested that exaggerated length and lack of height also contributed to an increased risk of IVDD.\n\nWe recommend that puppy buyers ask about any history of back problems and avoid buying puppies from parents with exaggerated length of body or excessively short legs. Lafora’s Disease has been identified in Miniature Wires and a DNA test developed. Breeders have responded and almost all Miniature Wires have been tested.\n\nSome breeders also test for Neuronal Ceroid Lipofuscinosis (NCL) which is a neurological disease that affects young pups in the early years of their life.",
+          source: "https://www.dogsnsw.org.au/Breeds/browse-all-breeds/216/Dachshund-Smooth-Haired-&-Miniature-Smooth-Haired/",
+        },
+        "exercise": {
+          text: "Many owners think that because they are so small, Dachshunds don't require more exercise than just running around the house. However, they do need regular exercise not only to stay fit, but also to build strong muscles to support and protect their back. Two walks every day of moderate length should be sufficient. To avoid injury, never allow your Dachshund to run up and down stairs or jump on or off furniture.",
+          source: "https://www.akc.org/dog-breeds/dachshund/",
+        },
+        "training": {
+          text: "Dachshunds are incredibly intelligent however, it is well documented that they can be very stubborn. They require an owner who is equally determined and strong willed in order to train a Dachshund. The owner of a Dachshund should make it known from an early age that they are the pack leader. Once this expectation has been set, you should find yourself with an obedient Dachshund. Make sure to reward correct behaviour and correct undesired behaviour consistently and fairly. They have a strong hunting drive due to their breeding origins and are able to stay focused and follow a trail without distraction. Engage with early socialisation by placing them in a number of varying situations from an early age, including interacting with other humans and dogs.",
+        },
+        "grooming": {
+          text: "Dachshund are strong, hardy and easy to care for. All three coat varieties require marginal attention, with the miniature smooth variety in particular requiring very little grooming. Smooth-coated Dachshunds are somewhat 'wash and wear,' needing little beyond a wipe with a towel or hound glove to look dapper. This variety appeals to many people because they are so easy to keep clean and groom. There is virtually nothing to do to keep their coat in good condition. If this breed type is healthy and properly fed, then the coat will radiate the inner good health. It will have a good sheen. A weekly brush is still required if you wish to have a squeaky-clean dog around you. They shed very little coat, have very little doggy odour and bathing is only required occasionally.",
+          source: "https://www.akc.org/dog-breeds/dachshund/",
+        }
+      },
     },
 ];
