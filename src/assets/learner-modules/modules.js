@@ -298,7 +298,44 @@ export const modules = [
       slug: "cocker-spaniel",
       description: "This quiz is aimed at teaching the wider community about the Cocker Spaniel. Provide your feedback on the information in this quiz!",
       imageFile: image015,
-    //   category: "dog-breeds",
+      category: "dog-breeds",
+      quizUrl: "https://docs.google.com/forms/d/e/1FAIpQLSdDM5m8gxm5FAVMaSorA4_f2NiRYrvPC-ydQwVmJW8os0lvlg/viewform",
+      sections: {
+        "origin": {
+          text: "Their origins can be traced back to 14th century Spain. Prior to the 1600's all types of spaniels were categorised together; the larger ones being used to spring game and the smaller ones to flush out woodcock. Hence the names Springer and Cocker were derived. In 1892, the Kennel Club of Great Britain differentiated the two breeds separately. In the 1930's, the Cocker was the most popular breed of dog in Britain and there he stayed for almost 20 years! On the other side of the Atlantic, Americans were using the same breeding stock to develop a slightly different Cocker. In 1940, the Kennel Club then split these Spaniels into American and English.",
+          source: "https://www.purina.com.au/en/dogs/breeds/english-cocker-spaniel#.YScmd9MzbDE",
+        },
+        "fun-fact": {
+          text: "The spaniel breeds of England were developed centuries ago from dogs of Spanish stock (the word “spaniel” deriving from “Spanish”). This was long before the invention of reliable hunting rifles, when bird hunters used dogs in tandem with nets, bows, and sometimes falcons.",
+          source: "https://www.akc.org/dog-breeds/english-cocker-spaniel/",
+        },
+        "behaviour": {
+          text: "These are busy, friendly little dogs who thrive on human companionship, wanting nothing more than to please their owners. They are ideal pets where there are children about and get on well with other household animals. Cockers can be very manipulative - who can resist their soft, pleading eyes? The sad eyes, however, are a misconception, Cockers are a very happy breed, constantly wagging their tails and bringing 'presents' to one and all.",
+          source: "https://www.purina.com.au/en/dogs/breeds/english-cocker-spaniel#.YScmd9MzbDE",
+        },
+        "health": {
+          text: "English Cockers are generally healthy, but like all breeds, they're prone to certain health conditions. Not all English Cockers will get any or all of these diseases, but it's important to be aware of them if you're considering this breed.\n\nCocker Spaniels can be prone to the following diseases:\n\nProgressive Retinal Atrophy (PRA). PRA is an inherited disease of the retina in dogs, in which the eyes are genetically programmed to go blind.\n\nFamilial Nephropathy (FN). This disease is a rare kidney disease that inhibits the kidney’s ability to filter as well as its structure. There are carriers in Australia and there is a DNA test available for this disease. As with PRA, be sure to ask the breeder if the parents are tested for FN, and at least one parent is clear. There is no treatment for this genetic condition. It is fatal, and will lead to renal failure when the dog is between about 6 months and 2 years.\n\nHip and elbow dysplasia. Many factors, including genetics, environment, and diet, are thought to contribute to this deformity of the hip and elbow joints. Affected Cockers may be able to lead normal, healthy lives, although you will have to monitor their exercise and not allow them to overdo it. In severe cases, your Cocker may require hip replacement surgery to get around easily.",
+          source: "https://www.australiandoglover.com/2017/01/cocker-spaniel-breed-profile.html",
+        },
+        "exercise": {
+          text: "An upbeat, active sporting dog, the English Cocker Spaniel requires daily exercise for his physical and mental well-being. He will do well with activities such as long walks or hikes with his owner or playing ball in the backyard. The English Cocker Spaniel is an excellent family companion and easy to train. Whether he is working in the field or at home lounging on the sofa, his tail rarely stops wagging. They love to swim so take care when water is in the vicinity to ensure their safety. Allow them time off the lead to play and run off their energies.",
+          source: [
+            "https://www.purina.com.au/en/dogs/breeds/english-cocker-spaniel#.YScmd9MzbDE",
+            "https://www.akc.org/dog-breeds/english-cocker-spaniel/"
+          ],
+        },
+        "training": {
+          text: "The English Cocker was developed to follow instructions in the field, and the breed is still very eager to please. They are intelligent, easy to train and enjoy working with their owner so long as only positive methods are used. Early socialisation is recommended to ensure a well-adjusted companion who is adaptable to a variety of situations.",
+          source: "https://www.akc.org/dog-breeds/english-cocker-spaniel/",
+        },
+        "grooming": {
+          text: "Their coats must be brushed regularly. The excess hair around the ear passages and beneath the ears must be removed to ensure the ears are adequately ventilated and that no infections set in. The hair around their feet and that between their pads also needs regular attention. They should be stripped out 3 or 4 times a year by a professional groomer. It is possible, however, to learn how to do this yourself. The Cocker Spaniel sheds a moderate amount.\n\nANKC recognised colours are as below -\n\nSolid colours: Black; red; golden; liver (chocolate); black and tan; liver and tan. No white allowed except a small amount on chest.\n\nBicolours: Black and white; orange and white; liver and white; lemon and white. All with or without ticking.\n\nTricolours: Black, white and tan; liver, white and tan.\n\nRoans: Blue roan; orange roan; lemon roan; liver roan; blue roan and tan; liver roan and tan.\n\nAny colour or marking other than the above is undesirable.",
+          source: [
+            "https://ankc.org.au/Breed/Detail/64",
+            "https://www.purina.com.au/en/dogs/breeds/english-cocker-spaniel#.YScmd9MzbDE"
+          ]
+        }
+      },
     },
     {
       title: "Scottish Terrier",
