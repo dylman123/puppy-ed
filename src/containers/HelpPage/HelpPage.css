@@ -1,0 +1,61 @@
+.helpPage {
+    padding: 0 40px;
+}
+
+.pageTitle {
+    text-align: center;
+    margin-bottom: 60px;
+}
+  
+.coverImage {
+    width: 75%;
+    margin: auto;
+    border-radius: 4px;
+    object-fit: contain;
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+@media screen and (min-width: 768px) {
+    .coverImage {
+        width: 25%;
+    }
+}
+
+.contentOpener {
+    font-style: italic;
+    margin-top: 40px;
+    text-align: center;
+}
+  
+.subText {
+    margin-bottom: 20px;
+    text-align: center;
+}
+  
+.contentMain {
+    max-width: 400px;
+    margin: 0 auto 200px auto;
+}
+@media screen and (min-width: 768px) {
+    .contentMain {
+       margin: 100px auto 200px auto;
+    }
+}
+  
+.subtitle {
+    @apply --marketplaceH3FontStyles;
+    margin-top: 48px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+  
+.meetUsButton {
+    width: fit-content;
+    margin: auto;
+    padding:  10px 30px;
+}
+
+.contactMethod {
+    margin-bottom: 0;
+    text-align: center;
+}
