@@ -1,7 +1,7 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import { modules } from '../../assets/learner-modules/modules';
-import { DiscussionEmbed } from "disqus-react";
+import { CommentCount, DiscussionEmbed } from "disqus-react";
 import { BASE_URL, ENV, DEV } from '../../config';
 
 import './LearnerModulePage.css';
@@ -123,6 +123,17 @@ export default function LearnerModulePage() {
                 )
 
             ) : null }
+
+            {/* Section comment count */}
+            <p className='commentCountContainer'>
+                <CommentCount
+                    shortname={disqusShortname}
+                    config={disqusConfig}
+                >
+                    0 Comments
+                </CommentCount>
+            </p>
+
 
         </div>
     )
