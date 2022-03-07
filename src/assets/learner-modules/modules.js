@@ -203,7 +203,50 @@ export const modules = [
       slug: "boxer",
       description: "This quiz is aimed at teaching the wider community about the Boxer. Provide your feedback on the information in this quiz!",
       imageFile: image011,
-    //   category: "dog-breeds",
+      category: "dog-breeds",
+      quizUrl: "https://docs.google.com/forms/d/e/1FAIpQLSdEpN0ou6rGGcPDy5V5-fW2peL0eRyrK0wVfKAXnq0oBgb4ig/viewform",
+      sections: {
+        "origin": {
+          text: "The Boxer’s ancestors, the war dogs of the Assyrian empire, go back as far as 2,500 B.C. The breed is thought to have been bred down by German dog fanciers from a larger, heavier German breed called the Bullenbeisser (“bull biter”).These dogs were used to hunt boar, bear and deer. These ancestors of the Boxer were also used for bull-baiting when this became a sport. In the 19th century these breeds were crossed with the Bulldog and the Boxer we think of today was created. The breed has been very popular in Europe since early this century, however the first Boxer to be registered with the Kennel Club in Britain was in 1933.",
+          source: [
+            "https://www.purina.com.au/en/dogs/breeds/boxer-dog#.YOfhqxMzZhE",
+            "https://www.akc.org/dog-breeds/boxer/"
+          ],
+        },
+        "fun-fact": {
+          text: "Some breed historians say Boxers were used to help butchers in Germany by controlling cattle in slaughterhouses. Therefore, they believe that Boxes are named from the German word boxl, their slaughterhouse designation. Others contend the name boxer comes from the characteristic way that they use their forepaws to play, sparring much like a human boxer.",
+          source: "https://www.hillspet.com/dog-care/dog-breeds/boxer",
+        },
+        "behaviour": {
+          text: "As a breed these dogs are very lively, strong and very loyal. Temperament wise they are fearless and very self-assured. The boxer is a hardy dog full of stamina, not quick to pick a fight, but more than able to defend themselves if they have to. They take the jobs of watchdog and family guardian seriously and will meet threats fearlessly. Their patience and protective nature have earned them a reputation as a great dog with children. Boxers do best when exposed to a lot of people and other animals in early puppyhood. They remain puppy-like throughout their lives, making them quite a handful, and unintentionally creating havoc where they go. They can be very destructive if they are left alone at home for long periods of time.",
+          source: [
+            "https://www.purina.com.au/en/dogs/breeds/boxer-dog#.YOfhqxMzZhE",
+            "https://www.akc.org/dog-breeds/boxer/",
+          ],
+        },
+        "health": {
+          text: "Although the Boxer seems susceptible to many health problems, research shows that the Boxer is, in general, a healthy and sturdy dog. When purchasing a Boxer discuss any concerns with the breeder and research the breeding lines. Some common health issues to consider are: hip dysplasia, heart conditions such as aortic stenosis (where the aorta narrows below the aortic valve, forcing the heart to work harder to supply blood to the body) and cardiomyopathy. Some more health issues to look out for thyroid deficiency which may produce signs that include infertility, obesity, mental dullness, and lack of energy. Boxers can also be prone to degenerative myelopathy which is a progressive disease of the spinal cord in older dogs, and certain cancers (mast cell tumours, lymphoma, and brain tumours).",
+          source: [
+            "https://dogtime.com/dog-breeds/boxer#/slide/1",
+            "https://www.akc.org/dog-breeds/boxer/"
+          ]
+        },
+        "exercise": {
+          text: "Boxers are very playful, high-energy dogs. They need ample exercise every day, on leash or in a securely fenced area. Giving your Boxer plenty of daily exercise is the best way to ensure good behaviour. A tired Boxer is a good Boxer. The breed's heritage as a chaser of wild game means that they spend a good deal of time jumping and leaping about. As young dogs, they are constantly in need of reminders to teach them to stay 'down.'Because the Boxer is a powerful, active, and playful dog, he may not be the best choice for a very frail adult, nor for a small child who could be overwhelmed by a well-meaning but bouncy puppy.",
+          source: "https://www.akc.org/dog-breeds/boxer/",
+        },
+        "training": {
+          text: "Training is essential for the Boxer. They're so big and strong that they can accidentally hurt people by knocking them over if they don't learn to control their actions. The Boxer's temperament plays a role in their trainability. They're happy and excitable, bouncy, and a bit of a mischief-maker. Getting them to take training seriously requires starting early and using firm, fair training methods and positive motivation in the form of praise, play, and food rewards. Be consistent. Your Boxer will notice any time you let them get away with something, and they'll push to see what else he can get away with. Before you head to training class, settle them down a little with an energetic walk or play session. Boxers excel in a wide range of canine sports, including obedience, agility, and herding, and they perform brilliantly as service, assistance, and therapy dogs, and in roles such as drug detection and search-and-rescue.",
+          source: "https://www.akc.org/dog-breeds/boxer/",
+        },
+        "grooming": {
+          text: "The Boxer's short, shiny coat requires very little grooming but they do shed moderately. A good once-over with a rubber curry-brush or a hound glove once or twice a week should keep him looking his best. The Boxer tends to be a clean dog, needing a bath only occasionally. His nails should be trimmed at least once a month unless naturally worn down on a hard surface, and to prevent tartar buildup his teeth should be brushed often daily if possible.\n\nThe Boxer can be fawn, brindle or red. The brindle variety has black stripes on a golden-yellow or red-brown background. It can often have a white underbelly and white on the front, face and feet. Some puppies are born all or mostly white.",
+          source: [
+            "https://www.akc.org/dog-breeds/boxer/",
+            "https://dogsvictoria.org.au/family-pet/dogs-and-puppies/buying-a-puppy/breed-information-and-registered-breeders/boxer/",
+          ]
+        }
+      },
     },
     {
       title: "Whippet",
@@ -217,7 +260,38 @@ export const modules = [
       slug: "bichon-frise",
       description: "This quiz is aimed at teaching the wider community about the Bichon Frise. Provide your feedback on the information in this quiz!",
       imageFile: image013,
-    //   category: "dog-breeds",
+      category: "dog-breeds",
+      quizUrl: "https://docs.google.com/forms/d/e/1FAIpQLScsRUikGlviNEGpPzp9Q7G4uK446nkurjnyCpiH-qe28grziQ/viewform",
+      sections: {
+        "origin": {
+          text: "As with many dog breeds, the exact origin of the Bichon Frise is uncertain. The Bichon Frise was extremely popular and much doted on in the times of French Royalty. Dogs resembling the breed appear in paintings of the 17th and 18th century in the company of Lords and Ladies. When the French Royalty fell from favour, so too did these little dogs. The aristocratic Bichon Frise became the people’s Bichon Frise, accompanying organ players and entertaining passers-by with his clown-like antics and captivating expression. Almost wiped out during the First World War, it was only the dedication of those early breeders in France and Belgium that kept the breed alive. And how grateful are we today that they did.",
+          source: "https://dogsvictoria.org.au/family-pet/dogs-and-puppies/buying-a-puppy/breed-information-and-registered-breeders/bichon-frise/",
+        },
+        "fun-fact": {
+          text: "Bichons are a member of the clan of little white dogs formally known as Barbichon types. (These also include the Bolognese, Havanese, and Maltese) It is thought that these ancient breeds began their modern development on Tenerife, the largest of the Canary Islands. One of these breeds became so popular with the island’s sailors that it was known as the Bichon Tenerife, the primary ancestor of today’s Bichon Frise.",
+          source: "https://www.akc.org/dog-breeds/bichon-frise/",
+        },
+        "behaviour": {
+          text: "A cheerful attitude is the outstanding trait of the Bichon's personality. This dog loves to be loved, enjoys being the center of attention, and is adept at charming his family, neighbors, groomer, or veterinarian with his winning personality. The Bichon has a playful, independent streak, and likes to be in the company of people. They socialise well and are fine in the company of other dogs and pets in the household.",
+          source: "https://dogtime.com/dog-breeds/bichon-frise#/slide/1",
+        },
+        "health": {
+          text: "Bichons are generally healthy dogs, but can be susceptible to health conditions such as allergies, bladder infections, luxating patella (knee dislocation), and cataracts and other eye diseases. Bichons may experience early tooth loss or complications from gum infection if dental care and regular tooth brushing are not a priority. To avoid ear infections, regular ear cleaning is recommended.\n\nIt is important to look out for all signs of illness in your pup. Learn more about what the signs are in our Health module.",
+          source: "https://www.akc.org/dog-breeds/bichon-frise/"
+        },
+        "exercise": {
+          text: "All breeds require daily exercise, and the Bichon Frise is no different. Long stretches of calm are interspersed with brief bursts of high activity, often just running through the house or around the yard. Daily play sessions, in addition to walks, are required. Another dog can be a fine exercise companion, but the Bichon will still need quality playtime with his owner. A fenced-in backyard is a good idea; Bichons are surprisingly fast, and if one makes a dash for freedom, he may be difficult to catch or to call back to you. Many Bichons enjoy participating in obedience, agility, and rally competitions.",
+          source: "https://www.akc.org/dog-breeds/bichon-frise/",
+        },
+        "training": {
+          text: "As with all breeds, early socialization and puppy training classes are recommended. Bichons have a reputation for being difficult to housebreak. In every other respect, however, they are very easy to train. For example, Bichons love to perform tricks and learn new ones quickly. They respond very well to training based on positive rewards, rather than harsh or negative methods. A Bichon needs to be with his family, and undesirable behaviors are likely to result if he is regularly left alone for long periods of time.",
+          source: "https://www.akc.org/dog-breeds/bichon-frise/",
+        },
+        "grooming": {
+          text: "The Bichon is a white dog with black pigmentation who stands about 27cms at the shoulder. When presented for show, they have a wonderful ‘powder puff’ appearance, being scissored in a rounded off shape all over. With their gorgeous head furnishings, dark sparking eyes and the intense black pigmentation of the nose and eye rims, they have the most appealing little faces. The plumed tail carried gracefully over their back is another breed characteristic.\n\nThe Bichon Frise is a curly coated breed, which has minimal shedding, so require regular grooming. The coat needs to be thoroughly brushed 2 to 3 times per week and bathed every week or so. Owners need to be vigilant in ensuring nails are trimmed and ears and kept clean. Another option is to visit a professional groomer every 2 to 8 weeks, which would include the clipping and trimming of their coat.\n\nThe Bichon Frise is suitable for anyone who wants a fun and loving companion, provided you are prepared to do some regular work maintaining their coat. They are suitable for people with allergies as they are considered to be low allergy dogs, but if this is a concern for you, make sure you spend some time with a Bichon Frise to make sure he is suitable for you.",
+          source: "https://dogsvictoria.org.au/family-pet/dogs-and-puppies/buying-a-puppy/breed-information-and-registered-breeders/bichon-frise/"
+        }
+      },
     },
     {
       title: "Cocker Spaniel",
