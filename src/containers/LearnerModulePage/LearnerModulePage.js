@@ -113,15 +113,24 @@ export default function LearnerModulePage() {
         </div>
     )
 
-    const quizLink = (
-        <a className='buttonPrimary quizLink' rel="noopener noreferrer" target="_blank" href={currentModule.quizUrl}>
-            <span class="material-icons-outlined md-36 icon">visibility</span>
-            <p className='quizLinkText'>View this quiz</p>
-        </a>
+    const quizLinks = (
+        <div className='quizLinksContainer'>
+            <a className='quizLink' rel="noopener noreferrer" target="_blank" href={currentModule.quizUrl}>
+                <p className='quizLinkText'>Do the quiz</p>
+                <span class="material-icons-outlined md-36 icon">quiz</span>
+            </a>
+            <a className='quizLink' rel="noopener noreferrer" target="_blank" href={currentModule.quizUrl}>
+                <p className='quizLinkText'>Share the quiz</p>
+                <span class="material-icons-outlined md-36 icon">send</span>
+            </a>
+        </div>
     );
 
     const comments = (
         <div className='disqusComments'>
+            <h3 className='disqusHeading'>Have anything to add, or anything you would change?</h3>
+            <p className='disqusHeading'>We want to hear from breeders like yourself.</p>
+            <hr className='horizontalLine' />
             <DiscussionEmbed
                 shortname={disqusShortname}
                 config={disqusConfig}
@@ -136,7 +145,7 @@ export default function LearnerModulePage() {
             { navLinks }
             { sectionInformation }
             { comments }
-            { quizLink }
+            { quizLinks }
         </div>
     );
 }
