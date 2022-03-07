@@ -113,16 +113,28 @@ export default function LearnerModulePage() {
         </div>
     )
 
+    const copyQuizUrl = () => {
+        /* Copy the text inside the text field */
+        const url = currentModule.quizUrl;
+        navigator.clipboard.writeText(url).then(function() {
+            /* Alert the copied text */
+            alert("Quiz URL copied to clipboard");
+          }, function() {
+            /* Alert the error */
+            alert("Did not copy correctly. Try again");
+          });
+    }
+
     const quizLinks = (
         <div className='quizLinksContainer'>
             <a className='quizLink' rel="noopener noreferrer" target="_blank" href={currentModule.quizUrl}>
                 <p className='quizLinkText'>Do the quiz</p>
                 <span class="material-icons-outlined md-36 icon">quiz</span>
             </a>
-            <a className='quizLink' rel="noopener noreferrer" target="_blank" href={currentModule.quizUrl}>
+            <button className='quizLink' onClick={copyQuizUrl}>
                 <p className='quizLinkText'>Share the quiz</p>
                 <span class="material-icons-outlined md-36 icon">send</span>
-            </a>
+            </button>
         </div>
     );
 

@@ -52,6 +52,11 @@
     width: 200px;
     color: #969696;
     justify-content: center;
+    background-color: transparent;
+    border: none;
+}
+.quizLink:hover {
+    cursor: pointer;
 }
 @media screen and (min-width: 768px) {
     .quizLink {
