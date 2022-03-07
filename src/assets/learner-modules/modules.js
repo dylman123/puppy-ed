@@ -80,7 +80,7 @@ export const modules = [
           },
           "behaviour": {
             text: "They are friendly, good-natured dogs who are affectionate with everyone. They are adaptable dogs and are naturally social animals. They bond well with children, being patient and forgiving. Other household animals are not at risk. They are extremely loyal and love to be included in all aspects of family life. They will bark to draw your attention to strangers but will welcome them with open arms. Labrador pups often forget how big and powerful they are during play time. It is therefore important to keep an eye on them when around children and similarly, the elderly.",
-            source: "https://www.purina.com.au/en/dogs/breeds/labrador-retriever#.YHea4ZMza3I)",
+            source: "https://www.purina.com.au/en/dogs/breeds/labrador-retriever#.YHea4ZMza3I",
           },
           "health": {
             text: "Labradors do have a range of health issues to be conscious of. Breeders should screen for hereditary problems such as hip dysplasia, elbow dysplasia, progressive retinal atrophy and epilepsy to reduce the likelihood of your puppy being susceptible to such diseases. During the first 12 months of development, owners should be cautious of their pups hips and ensure that they are not running or jumping excessively. This can result in hip and elbow problems such as dysplasia. Labradors are incredibly driven by food. This can result in excessive feeding and obesity. It is recommended to weigh your pup's food to ensure consistency.",
@@ -95,7 +95,7 @@ export const modules = [
             source: "https://www.purina.com.au/en/dogs/breeds/labrador-retriever#.YHea4ZMza3I",
           },
           "grooming": {
-            text: "Labs are very active, strongly built dogs with good bone and substance. Their heads are broad with soft, intelligent eyes. They have a double coat: the undercoat being weather-resistant and the outer coat being short and dense with no feathering. Their tails are totally unique being 'otter' like and their movement is straight and true both front and back, covering the ground freely. Their coat is thick and dense with a weather-resistant undercoat. Labs shed moderately all year round with an increase just before both summer and winter (approximately 3 weeks). Brush them once a week with more attention during moulting. Labrador Retrievers come in solid black, yellow and chocolate brown/liver. Any other colours being advertised are not recognised as the correct standards and will be predisposed to a host of other health issues.",
+            text: "Labs are very active, strongly built dogs with good bone and substance. Their heads are broad with soft, intelligent eyes. They have a double coat: the undercoat being weather-resistant and the outer coat being short and dense with no feathering. Their tails are totally unique being 'otter' like and their movement is straight and true both front and back, covering the ground freely.\n\nTheir coat is thick and dense with a weather-resistant undercoat. Labs shed moderately all year round with an increase just before both summer and winter (approximately 3 weeks). Brush them once a week with more attention during moulting.\n\nLabrador Retrievers come in solid black, yellow and chocolate brown/liver. Any other colours being advertised are not recognised as the correct standards and will be predisposed to a host of other health issues.",
             source: "https://www.purina.com.au/en/dogs/breeds/labrador-retriever#.YHea4ZMza3I",
           }
       },
@@ -114,6 +114,34 @@ export const modules = [
       description: "This quiz is aimed at teaching the wider community about the French Bulldog. Provide your feedback on the information in this quiz!",
       imageFile: image008,
       category: "dog-breeds",
+      sections: {
+        "origin": {
+          text: "Around the time of the Industrial Revolution in the UK, a group of British bulldog breeders developed a smaller, lighter toy bulldog, around 12-25 lbs in weight, having either upright or rose ears, round foreheads and short under-jaws —and perhaps a touch of terrier liveliness. These were quite popular with workers in the English midlands, in particular the artisans in the lace-making industry around Nottingham. At the conclusion of the Industrial Revolution these lace-makers emigrated to the North of France—and they took their little bulldogs with them. The popularity of these little dogs spread from Normandy to Paris and soon the English breeders had a lively trade, exporting small bulldogs to France. Breeders say the French Bulldog has been in Australia since the late 1940's and was developed from imported English bloodlines.",
+          source: "https://frenchbulldogclub.org/history/ & https://www.purina.com.au/en/dogs/breeds/french-bulldog#.YHY3_bQza3I",
+        },
+        "fun-fact": {
+          text: "It is believed that the French Bulldog is a mix of the English Bulldog, the Pug and the Rat Terrier. French Bulldogs are unable to breed naturally and require artificial insemination. Often, due to their narrow hips, French Bulldogs require a C-Section at birth.",
+        },
+        "behaviour": {
+          text: "The French Bulldog is a pleasant, easy-care companion, who is playful, alert and affectionate. Enthusiastic and lively, but are not yappy and loud. Curious, sweet and absolutely hilarious; they have a very comical personality and love to clown around. They are bright and easygoing. The Frenchie gets along fairly well with strangers and other animals and enjoys being with their owners. They play well with other dogs. They are suitable for a family with children.",
+          source: "https://www.purina.com.au/en/dogs/breeds/french-bulldog#.YHY3_bQza3I",
+        },
+        "health": {
+          text: "The French Bulldog has gained popularity due to its unique appearance. The French bulldog is Brachycephalic (the distinctive squashed face) which is adorable, but can cause a range of health problems to be aware of. The most common of which is Brachycephalic Obstructive Airway Syndrome, which is the obstruction of the upper airway tract. The extent to how much a Brachycephalic dog suffers from BOAS varies, but it is important to understand the risks, and potential treatments.\n\nBOAS can cause snoring, regurgitation or reflux, noise during exercise, exercise intolerance and interrupted sleep.\n\nBrachycephalic dogs are also prone to a range of eye problems due to their short faces, large eyelid openings and large eyes. Make sure to be alert for any redness, swelling or discharge from the eyes, and get your pup checked out if you do notice any symptoms. Eyes can change quite quickly which means they often respond quickly to the correct treatment, and also means they can worsen quickly without medical attention.\n\nOther potential health risks are a weakness in the back which can be aggravated by the dog jumping down from furniture, particularly when young and luxating patellas (dislocating knee joints).",
+          source: "https://melbournebulldogclinic.com.au/bulldog-health/airways/"
+        },
+        "exercise": {
+          text: "A daily walk is necessary to maintain a satisfactory level of fitness. French Bulldogs are prone to overheating due to their Brachycephalic nature and this must be considered during exercise. French Bulldogs are also unable to swim due to squashed faces and their stocky build.",
+        },
+        "training": {
+          text: "French Bulldogs are intelligent but notoriously stubborn learners. To train them use consistency and firmness as well as a lot of patience. Don’t be surprised if your pup chooses to end the training session and curl up on the sofa to studiously ignore you.",
+          source: "https://www.purina.com.au/en/dogs/breeds/french-bulldog#.YHY3_bQza3I",
+        },
+        "grooming": {
+          text: "The French Bulldog should stand around 30cm in height and weigh 10-15kg. Colours include only: brindle (which can have white but is mostly brindle), pied (mostly white), and fawn. All the following colours are highly undesirable: solid black, black and white, black and tan, mouse, grey/blue, liver/chocolate and all patterns of these colours lead to a host of health problems in French Bulldogs.\n\nThe smooth, short-haired coat is easy to groom. Brush on a regular basis with a firm bristle brush, and bathe once every two weeks in the warmer months and bathe once a month in the colder months. The French Bulldog does shed a little but twice a year they lose their undercoat.",
+          source: "http://ankc.org.au/Breed/Detail/75",
+        }
+    },
       quizUrl: "https://docs.google.com/forms/d/e/1FAIpQLSdvvfzSrhMlidnIeJecUgSMgsjbVtpRJ6l9AHEKGkQx8pzV7Q/viewform?usp=sf_link",
     },
     {

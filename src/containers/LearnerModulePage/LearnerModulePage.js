@@ -100,7 +100,7 @@ export default function LearnerModulePage() {
 
             {/* Section text */}
             { !section ? null : (
-                <p>{section.text}</p>
+                <p className='informationText'>{section.text}</p>
             )}
 
             {/* Section source */}
