@@ -117,7 +117,10 @@ export const modules = [
       sections: {
         "origin": {
           text: "Around the time of the Industrial Revolution in the UK, a group of British bulldog breeders developed a smaller, lighter toy bulldog, around 12-25 lbs in weight, having either upright or rose ears, round foreheads and short under-jaws —and perhaps a touch of terrier liveliness. These were quite popular with workers in the English midlands, in particular the artisans in the lace-making industry around Nottingham. At the conclusion of the Industrial Revolution these lace-makers emigrated to the North of France—and they took their little bulldogs with them. The popularity of these little dogs spread from Normandy to Paris and soon the English breeders had a lively trade, exporting small bulldogs to France. Breeders say the French Bulldog has been in Australia since the late 1940's and was developed from imported English bloodlines.",
-          source: "https://frenchbulldogclub.org/history/",
+          source: [
+            "https://frenchbulldogclub.org/history/",
+            "https://www.purina.com.au/en/dogs/breeds/french-bulldog#.YHY3_bQza3I",
+          ],
         },
         "fun-fact": {
           text: "It is believed that the French Bulldog is a mix of the English Bulldog, the Pug and the Rat Terrier. French Bulldogs are unable to breed naturally and require artificial insemination. Often, due to their narrow hips, French Bulldogs require a C-Section at birth.",
@@ -229,6 +232,44 @@ export const modules = [
       description: "This quiz is aimed at teaching the wider community about the Scottish Terrier. Provide your feedback on the information in this quiz!",
       imageFile: image016,
       category: "dog-breeds",
+      sections: {
+        "origin": {
+          text: "Until 1859 no mention of this breed was recorded, and yet in that year, Scotties where exhibited as a pure breed, albeit under the name of 'Aberdeen Terrier', the area in which they were mostly bred. It is certain, however, that the West Highland White and Scotties are closely related. These dogs were used to extract vermin from rocks, rats from under the earth and other pests from barns.",
+          source: "https://www.purina.com.au/en/dogs/breeds/scottish-terrier#.YS3LY9Mza3I",
+        },
+        "fun-fact": {
+          text: "A solidly compact dog of vivid personality, the Scottish Terrier is an independent, confident companion of high spirits. Scotties have a dignified, almost-human character. Their terrier persistence has earned the breed the nickname 'the Diehard.'",
+          source: "https://www.akc.org/dog-breeds/scottish-terrier/",
+        },
+        "behaviour": {
+          text: "Scotties think they are large dogs and have the boldness and courage to match. To outsiders Scotties appear somewhat morose and serious but to their family and friends they are affectionate and cheerful. Children must be taught that these dogs are not toys and to give them the respect they deserve.",
+          source: "https://www.purina.com.au/en/dogs/breeds/scottish-terrier#.YS3LY9Mza3I",
+        },
+        "health": {
+          text: "The Scottish Terrier is fortunate to have few serious genetic problems. Some shared genetic problems seen occasionally are Von Willebrand’s Disease, a common bleeding disorder that interferes with the blood's ability to clot. It is now being carefully managed by genetic testing.\n\nCushing’s Disease is another disease to be aware of. It happens when your dog’s body makes too much of a hormone called cortisol. This chemical helps them to respond to stress, control their weight, fight infections, and keep their blood sugar levels in check. But too much or too little of it can cause problems.\n\nFinally, Scottie Cramp – intermittent spasms in the limbs, back and tail cause the muscles to become rigid.",
+          source: [
+            "https://dogsqueensland.org.au/Breeds/browse-all-breeds/82/Scottish-Terrier/",
+            "https://pets.webmd.com/dogs/cushings-syndrome-dogs#",
+            "https://dogtime.com/dog-breeds/scottish-terrier#/slide/1",
+            "https://www.purina.com.au/en/dogs/breeds/scottish-terrier#.YS3LY9Mza3I",
+          ]
+        },
+        "exercise": {
+          text: "Scottish Terriers need a good walk, but also good playtime. They have high energy and need to expend some of that in bursts. Throwing a ball or toy around that they can chase works great. Play tug with a favorite toy to see they won't stop or let go until you do. All of that activity will keep them in good shape and attitude.\n\nScotties like water but can't swim, and that's a bad conflict. They sink like a stone because of their short legs and heavy body. They should be able to enjoy some activities like going to the beach under strict supervision from their owner, however avoid other water areas such as pools, lakes and rivers.",
+          source: "https://www.akc.org/dog-breeds/scottish-terrier/",
+        },
+        "training": {
+          text: "Scottish Terriers do best with training sessions not lasting more than 15 minutes at a time. Be creative, and do not repeat the training the same way all the time. This breed is a thinker, and if they get bored, they will not respond. Remember, the farmers kept the dogs who could figure things out, not the ones who had to be told what to do. Don't be surprised when they test you. There is an independent streak in them. That is best focused when you make it seem like it is their idea to do something. They respond greatly to vocal tones and know why you are displeased by your voice. Just be persistent, and reward good behaviour.",
+          source: "https://www.akc.org/dog-breeds/scottish-terrier/",
+        },
+        "grooming": {
+          text: "Scotties are small and compact in appearance. Definitely not light for their size, they are short-legged, thick-set and muscular. They do have great power and activity in a small compass. They have pricked ears and their long heads are finished with a beard. Their tails are set at twelve o’clock. They are very agile and active dogs in spite of their short legs.\n\nScotties come in various colours ranging from black, brindle (black brindle, silver brindle, red brindle) to wheaten. They have a double coat with a soft undercoat and a harsh, coarse, topcoat.\n\nBeing double coated, Scotties will shed quite a lot of hair.\n\nPet Scottish Terriers should be trimmed using clippers and scissors about four times a year. Show dogs’ coats are hand stripped to maintain the harsh double coat, and this is usually required two or three times a year.",
+          source: [
+            "https://dogsvictoria.org.au/family-pet/dogs-and-puppies/buying-a-puppy/breed-information-and-registered-breeders/scottish-terrier/",
+            "https://dogsqueensland.org.au/Breeds/browse-all-breeds/82/Scottish-Terrier/"
+          ]
+        }
+      },
       quizUrl: "https://docs.google.com/forms/d/e/1FAIpQLSeNSkaS7rrXvuW35-kH7nQIwiqt6HxbM_M5TINpzB5JIZsG2Q/viewform?usp=sf_link",
     },
     {

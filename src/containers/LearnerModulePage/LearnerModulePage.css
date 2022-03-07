@@ -73,6 +73,7 @@
     color: rgb(125, 125, 197);
     text-decoration: underline;
     font-size: smaller;
+    margin: 5px 0;
 }
 
 .disqusComments {

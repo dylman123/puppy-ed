@@ -105,9 +105,23 @@ export default function LearnerModulePage() {
 
             {/* Section source */}
             { section && section.source ? (
-                <a rel="noopener noreferrer" target="_blank" href={section.source}>
-                    <p className='sourceLink'>Source: {section.source}</p>
-                </a>
+            
+                // if source is an array of url strings
+                Array.isArray(section.source) ? (
+                    section.source.map(s => {
+                        return (
+                            <a rel="noopener noreferrer" target="_blank" href={s}>
+                                <p className='sourceLink'>Source: {s}</p>
+                            </a>
+                        )
+                    })
+                ) : (
+                // if source is a url string
+                    <a rel="noopener noreferrer" target="_blank" href={section.source}>
+                        <p className='sourceLink'>Source: {section.source}</p>
+                    </a>
+                )
+
             ) : null }
 
         </div>
