@@ -59,6 +59,10 @@
 }
 
 @media screen and (max-width: 768px) {
+    .ellipse1 {
+        left: auto;
+        right: 100px;
+    }
     .ellipse2, .ellipse3, .ellipse4, .ellipse5 {
       left: auto;
       right: 0;
