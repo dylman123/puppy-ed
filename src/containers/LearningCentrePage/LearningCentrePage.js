@@ -1,5 +1,6 @@
 import React from 'react';
 import { modules } from '../../assets/learner-modules/modules';
+import AuthorCard from '../../components/AuthorCard/AuthorCard';
 
 import './LearningCentrePage.css';
 
@@ -15,7 +16,7 @@ export default function LearningCentrePage() {
         <p className='cardDescription'>
           {m.description}
         </p>
-        {/* {!m.author ? null : authorCard(m.author)} */}
+        {!m.author ? null : AuthorCard(m.author)}
       </a>
     )
   }

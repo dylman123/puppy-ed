@@ -1,0 +1,61 @@
+.authorCard {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin: 15px auto 0 auto;
+    background-color: white;
+    width: fit-content;
+    padding: 3px 10px 3px 7px;
+    border-radius: 15px;
+    border: 1px solid #969696;
+    /* box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25); */
+    text-decoration: none;
+  }
+  
+  .authorImageWrapper {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+  
+  .authorImageWrapperLarge {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+  
+  .authorImage {
+    /* object-fit: contain; */
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+  }
+  
+  .authorTitle {
+    line-height: normal;
+  }
+  
+  .authorName {
+    color: black;
+    font-weight: bold;
+  
+    /* @media (--viewportMedium) {
+      font-size: smaller;
+    } */
+  }
+  
+  .authorPrefix {
+    color: #969696;
+    font-size: smaller;
+    font-style: italic;
+  
+    /* @media (--viewportMedium) {
+      font-size: small;
+    } */
+  }

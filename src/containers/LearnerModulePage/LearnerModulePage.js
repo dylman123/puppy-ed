@@ -5,6 +5,7 @@ import { CommentCount, DiscussionEmbed } from "disqus-react";
 import { BASE_URL, ENV, DEV } from '../../config';
 
 import './LearnerModulePage.css';
+import AuthorCard from '../../components/AuthorCard/AuthorCard';
 
 // The sectionHeadings apply to modules of category 'dog-breed'
 const sectionHeadings = [
@@ -48,11 +49,11 @@ export default function LearnerModulePage() {
 
     const dynamicLinkId = h => h.key === tab ? 'tab' : '';
 
-
     const moduleHeading = (
         <div className='moduleHeading'>
             <h2 className='moduleTitle'>{currentModule.title}</h2>
             <img className='moduleIcon' src={currentModule.imageFile} alt={currentModule.title}/>
+            {AuthorCard(currentModule.author)}
         </div>
     );
 
