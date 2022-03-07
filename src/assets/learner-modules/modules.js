@@ -67,7 +67,7 @@ export const modules = [
     {
       title: "Labrador Retriever",
       slug: "labrador-retriever",
-      description: "This quiz is aimed at teaching the wider community about the Labrador Retriever. Provide your feedback on the information in this quiz!",
+      description: "This information is from our Labrador Retriever quiz - aimed at teaching the wider community about the breed. Please review and provide feedback on the information in order to make our quiz the most accurate and extensive that it can be.",
       imageFile: image007,
       category: "dog-breeds",
       sections: {
@@ -104,14 +104,14 @@ export const modules = [
     {
       title: "Golden Retriever",
       slug: "golden-retriever",
-      description: "This quiz is aimed at teaching the wider community about the Golden Retriever. Provide your feedback on the information in this quiz!",
+      description: "This information is from our Golden Retriever quiz - aimed at teaching the wider community about the breed. Please review and provide feedback on the information in order to make our quiz the most accurate and extensive that it can be.",
       imageFile: image014,
       // category: "dog-breeds",
     },
     {
       title: "French Bulldog",
       slug: "french-bulldog",
-      description: "This quiz is aimed at teaching the wider community about the French Bulldog. Provide your feedback on the information in this quiz!",
+      description: "This information is from our French Bulldog quiz - aimed at teaching the wider community about the breed. Please review and provide feedback on the information in order to make our quiz the most accurate and extensive that it can be.",
       imageFile: image008,
       category: "dog-breeds",
       sections: {
@@ -150,14 +150,14 @@ export const modules = [
     {
       title: "Pug",
       slug: "pug",
-      description: "This quiz is aimed at teaching the wider community about the Pug. Provide your feedback on the information in this quiz!",
+      description: "This information is from our Pug quiz - aimed at teaching the wider community about the breed. Please review and provide feedback on the information in order to make our quiz the most accurate and extensive that it can be.",
       imageFile: image009,
     //   category: "dog-breeds",
     },
     {
       title: "Rottweiler",
       slug: "rottweiler",
-      description: "This quiz is aimed at teaching the wider community about the Rottweiler. Provide your feedback on the information in this quiz!",
+      description: "This information is from our Rottweiler quiz - aimed at teaching the wider community about the breed. Please review and provide feedback on the information in order to make our quiz the most accurate and extensive that it can be.",
       imageFile: image017,
       category: "dog-breeds",
       author: {
@@ -194,14 +194,14 @@ export const modules = [
     {
       title: "Papillon & Phalene",
       slug: "papillon",
-      description: "This quiz is aimed at teaching the wider community about the Papillon & Phalene. Provide your feedback on the information in this quiz!",
+      description: "This information is from our Papillon & Phalene quiz - aimed at teaching the wider community about the breed. Please review and provide feedback on the information in order to make our quiz the most accurate and extensive that it can be.",
       imageFile: image010,
     //   category: "dog-breeds",
     },
     {
       title: "Boxer",
       slug: "boxer",
-      description: "This quiz is aimed at teaching the wider community about the Boxer. Provide your feedback on the information in this quiz!",
+      description: "This information is from our Boxer quiz - aimed at teaching the wider community about the breed. Please review and provide feedback on the information in order to make our quiz the most accurate and extensive that it can be.",
       imageFile: image011,
       category: "dog-breeds",
       quizUrl: "https://docs.google.com/forms/d/e/1FAIpQLSdEpN0ou6rGGcPDy5V5-fW2peL0eRyrK0wVfKAXnq0oBgb4ig/viewform",
@@ -251,14 +251,14 @@ export const modules = [
     {
       title: "Whippet",
       slug: "whippet",
-      description: "This quiz is aimed at teaching the wider community about the Whippet. Provide your feedback on the information in this quiz!",
+      description: "This information is from our Whippet quiz - aimed at teaching the wider community about the breed. Please review and provide feedback on the information in order to make our quiz the most accurate and extensive that it can be.",
       imageFile: image012,
     //   category: "dog-breeds",
     },
     {
       title: "Bichon Frise",
       slug: "bichon-frise",
-      description: "This quiz is aimed at teaching the wider community about the Bichon Frise. Provide your feedback on the information in this quiz!",
+      description: "This information is from our Bichon Frise quiz - aimed at teaching the wider community about the breed. Please review and provide feedback on the information in order to make our quiz the most accurate and extensive that it can be.",
       imageFile: image013,
       category: "dog-breeds",
       quizUrl: "https://docs.google.com/forms/d/e/1FAIpQLScsRUikGlviNEGpPzp9Q7G4uK446nkurjnyCpiH-qe28grziQ/viewform",
@@ -296,7 +296,7 @@ export const modules = [
     {
       title: "Cocker Spaniel",
       slug: "cocker-spaniel",
-      description: "This quiz is aimed at teaching the wider community about the Cocker Spaniel. Provide your feedback on the information in this quiz!",
+      description: "This information is from our Cocker Spaniel quiz - aimed at teaching the wider community about the breed. Please review and provide feedback on the information in order to make our quiz the most accurate and extensive that it can be.",
       imageFile: image015,
       category: "dog-breeds",
       quizUrl: "https://docs.google.com/forms/d/e/1FAIpQLSdDM5m8gxm5FAVMaSorA4_f2NiRYrvPC-ydQwVmJW8os0lvlg/viewform",
@@ -340,7 +340,7 @@ export const modules = [
     {
       title: "Scottish Terrier",
       slug: "scottish-terrier",
-      description: "This quiz is aimed at teaching the wider community about the Scottish Terrier. Provide your feedback on the information in this quiz!",
+      description: "This information is from our Scottish Terrier quiz - aimed at teaching the wider community about the breed. Please review and provide feedback on the information in order to make our quiz the most accurate and extensive that it can be.",
       imageFile: image016,
       category: "dog-breeds",
       sections: {
@@ -386,7 +386,7 @@ export const modules = [
     {
       title: "Dachshund",
       slug: "dachshund",
-      description: "This quiz is aimed at teaching the wider community about the Dachshund. Provide your feedback on the information in this quiz!",
+      description: "This information is from our Dachshund quiz - aimed at teaching the wider community about the breed. Please review and provide feedback on the information in order to make our quiz the most accurate and extensive that it can be.",
       imageFile: image018,
     //   category: "dog-breeds",
     },
