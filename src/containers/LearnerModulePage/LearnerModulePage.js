@@ -165,8 +165,8 @@ export default function LearnerModulePage() {
 
     const comments = (
         <div className='disqusComments'>
-            <h3 className='disqusHeading'>Have anything to add, or anything you would change?</h3>
-            <p className='disqusHeading'>We want to hear from breeders like yourself.</p>
+            <h3 className='disqusHeading'>Do you have anything to add, or anything you would change?</h3>
+            <p className='disqusSubheading'>We want to hear from breeders like yourself.</p>
             <hr className='horizontalLine' />
             <DiscussionEmbed
                 shortname={disqusShortname}
