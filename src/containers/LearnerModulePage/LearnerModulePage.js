@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { modules } from '../../assets/learner-modules/modules';
 import { CommentCount, DiscussionEmbed } from "disqus-react";
@@ -44,6 +44,14 @@ export default function LearnerModulePage() {
     var { slug, tab } = useParams();
     
     const currentModule = modules.find(m => m.slug === slug);
+
+    // Similar to componentDidMount
+    useEffect(() => {
+        fetch("https://docs.google.com/forms/d/e/1FAIpQLSfgaBuvemByt1SoYKXaJbPnPc5K_ogAHDm-zr5lb5cs0CyCSg/viewform")
+            .then(response => response.json())
+            .then(data => console.log({data}))
+            .catch(error => console.error({error}))
+    })
 
     const navLinkStyle = h => h.key === tab ? 'navLinkSelected' : 'navLinkUnselected';
 
