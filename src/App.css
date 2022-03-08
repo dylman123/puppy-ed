@@ -1,27 +1,26 @@
 .App {
   text-align: center;
+  background-color: rgba(205, 242, 202, 0.2);
+}
+@media screen and (min-width: 768px) {
+  .App {
+
+  }
+}
+@media screen and (min-width: 1500px) {
+  .App {
+
+  }
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {
@@ -35,4 +34,92 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+/* section */
+.section {
+  padding: 7% 40px;
+}
+@media screen and (min-width: 768px) {
+  .section {
+    padding: 2% 10%;
+  }
+}
+@media screen and (min-width: 1500px) {
+  .section {
+    padding: 2% 17%;
+  }
+}
+
+
+.responsiveContainer {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+ .responsiveContainer {
+    flex-direction: row;
+ }
+}
+
+@media screen and (max-width: 768px) {
+  .mobile-column-reverse {
+    flex-direction: column-reverse;
+  }
+ }
+
+.image {
+  max-height: 250px;
+  margin-top: 30px;
+}
+@media screen and (min-width: 768px) {
+  .image {
+    margin: 50px 0 0 50px;
+    max-height: 400px;
+  }
+}
+
+.photo {
+  box-shadow: 0px 2px 15px rgb(80, 80, 80);
+}
+
+.ctaContainer {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  text-align: center;
+}
+
+.ctaPrimary {
+  color: white;
+  background-color: #509949;
+  border-radius: 25px;
+  padding: 14px 23px;
+  box-shadow: 0px 2px 15px rgb(80, 80, 80);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.ctaSecondary {
+  text-decoration: none;
+  margin: auto 0;
+  color: #969696;
+  font-weight: 500;
+}
+
+.buttonPrimary {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* padding: 5px 40px; */
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(20px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 30px;
+  min-width: 153px;
+  min-height: 60px;
 }

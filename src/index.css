@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: -apple-system, BlinkMacSystemFont, 'Lexend Deca', 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -11,3 +11,78 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h1,h2,h3,h4,p {
+  text-align: start;
+  font-family: 'Lexend Deca', 'Roboto', 'sans-serif';
+}
+
+h1 {
+  color: #28DD18;
+  font-size: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 48px;
+  }
+}
+
+h2 {
+  color: #444444;
+  font-size: 36px;
+}
+
+h3 {
+  color: #444444;
+  font-size: 18px;
+}
+
+h4 {
+  color: #28DD18;
+  font-size: 18px;
+}
+
+p {
+  color: #444444;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  transform: scale(1.05);
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+/* ================ Google Material Icons =============== */
+
+/* Rules for sizing the icon. */
+.material-icons-outlined.md-18 { font-size: 18px; }
+.material-icons-outlined.md-24 { font-size: 24px; }
+.material-icons-outlined.md-36 { font-size: 36px; }
+.material-icons-outlined.md-48 { font-size: 48px; }
+
+/* Rules for using icons as black on a light background. */
+.material-icons-outlined.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons-outlined.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+/* Rules for using icons as white on a dark background. */
+.material-icons-outlined.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons-outlined.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+
+/* ================ Custom media queries ================ */
+
+/* :root {
+  --viewportSmall: (min-width: 550px);
+  --viewportMedium: (min-width: 768px);
+  --viewportLarge: (min-width: 1024px);
+  --viewportLargeWithPaddings: (min-width: 1128px);
+  --viewportXLarge: (min-width: 1921px);
+} */
+

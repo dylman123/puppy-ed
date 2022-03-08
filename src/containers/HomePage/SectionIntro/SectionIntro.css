@@ -1,0 +1,29 @@
+.headingsContainer {
+  flex: 1;
+  text-align: start;
+}
+
+.imageContainer {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .imageContainer {
+    justify-content: flex-end;
+  }
+}
+
+.mainImage {
+  filter: invert();
+  max-height: 250px;
+}
+
+@media screen and (min-width: 768px) {
+  .mainImage {
+    margin: 50px 0 0 50px;
+    max-height: 400px;
+  }
+}

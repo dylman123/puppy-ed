@@ -1,0 +1,146 @@
+.learnerModulePage {
+    margin: 0 0;
+}
+@media screen and (min-width: 768px) {
+    .learnerModulePage {
+        margin: 0 100px;
+    }
+}
+
+.moduleHeading {
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+    .moduleHeading {
+        flex-direction: row;
+        align-items: center;
+        gap: 40px;
+    }
+}
+
+.sectionInformation {
+    margin: 30px 0;
+    overflow-wrap: break-word;
+    background-color: white;
+    padding: 10px 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+@media screen and (min-width: 768px) {
+    .sectionInformation {
+        padding: 30px 60px;
+    }
+}
+
+.quizLinksContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    /* margin-bottom: 40px; */
+}
+@media screen and (min-width: 768px) {
+    .quizLinksContainer {
+        flex-direction: row;
+    }
+}
+
+.quizLink {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    color: #969696;
+    justify-content: center;
+    background-color: transparent;
+    border: none;
+}
+.quizLink:hover {
+    cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+    .quizLink {
+        margin: 60px 0;
+    }
+}
+
+.quizLinkText {
+    margin: 0 0 0 15px;
+    color: #969696;
+}
+
+.sourceLink {
+    color: rgb(125, 125, 197);
+    text-decoration: underline;
+    font-size: smaller;
+    margin: 5px 0;
+}
+
+.commentCountContainer {
+    text-align: end;
+    color: #969696;
+}
+
+.disqusComments {
+    margin: 30px 0;
+    background-color: white;
+    padding: 10px 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+@media screen and (min-width: 768px) {
+    .disqusComments {
+        padding: 30px 60px;
+    }
+}
+
+.disqusHeading {
+    margin-bottom: 0;
+    color: #969696;
+}
+
+.disqusSubheading {
+    margin-top: 0;
+    color: #969696;
+}
+
+.horizontalLine {
+    margin-bottom: 40px;
+}
+
+.navLinks {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin: 30px 10px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    overflow-x: scroll;
+}
+@media screen and (min-width: 768px) {
+    .navLinks {
+        justify-content: space-around;
+    }
+}
+
+.navLinkSelected {
+    font-weight: bold;
+    color: #000000;
+}
+
+.navLinkUnselected {
+    color: #969696;
+}
+
+.navLinkSelected, .navLinkUnselected {
+    white-space: nowrap;
+    /* padding-top: 90px; */
+    /* margin-top: -90px; */
+}
+
+.informationText {
+    white-space: pre-line;
+}

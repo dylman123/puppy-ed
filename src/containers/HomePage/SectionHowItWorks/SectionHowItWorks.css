@@ -1,0 +1,61 @@
+.sectionHowItWorks {
+}
+
+.steps {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .steps {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+}
+
+.step {
+
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 60px;
+  width: 60px;
+  height: 60px;
+}
+
+.icon1 {
+  background-color: #e2ecd3;
+}
+
+.icon2 {
+  background-color: #EDEDED;
+}
+
+.icon3 {
+  background-color: #F0E6EC;
+}
+
+.icon4 {
+  background-color: #E9F3FD;
+}
+
+.title {
+  text-align: start;
+  color: #444444;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.description {
+  text-align: start;
+  color: #444444;
+  font-size: 16px;
+  font-weight: 400;
+  max-width: 260px;
+}

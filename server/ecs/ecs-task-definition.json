@@ -1,0 +1,64 @@
+{
+    "ipcMode": "task",
+    "executionRoleArn": "",
+    "containerDefinitions": [
+      {
+        "dnsSearchDomains": [],
+        "environmentFiles": [],
+        "entryPoint": [],
+        "portMappings": [
+          {
+            "hostPort": 8080,
+            "protocol": "tcp",
+            "containerPort": 5000
+          }
+        ],
+        "command": [],
+        "linuxParameters": {},
+        "cpu": 1024,
+        "environment": [],
+        "resourceRequirements": [],
+        "ulimits": [],
+        "dnsServers": [],
+        "mountPoints": [],
+        "workingDirectory": "/app",
+        "secrets": [],
+        "dockerSecurityOptions": [],
+        "memory": 100,
+        "memoryReservation": 100,
+        "volumesFrom": [],
+        "stopTimeout": 60,
+        "image": "595162448248.dkr.ecr.ap-southeast-2.amazonaws.com/puppy-ed-express-app:latest",
+        "startTimeout": 10,
+        "dependsOn": [],
+        "disableNetworking": false,
+        "interactive": true,
+        "essential": true,
+        "links": [],
+        "hostname": "puppy-ed-dev-express-app",
+        "extraHosts": [],
+        "pseudoTerminal": true,
+        "user": "root",
+        "readonlyRootFilesystem": true,
+        "dockerLabels": {},
+        "systemControls": [],
+        "privileged": true,
+        "name": "PuppyEdExpressAppDevContainer"
+      }
+    ],
+    "placementConstraints": [],
+    "memory": "512",
+    "taskRoleArn": "",
+    "family": "PuppyEdExpressAppDevTask",
+    "pidMode": "task",
+    "requiresCompatibilities": [
+      "EC2"
+    ],
+    "networkMode": "bridge",
+    "runtimePlatform": {
+      "operatingSystemFamily": "LINUX"
+    },
+    "cpu": "1024",
+    "inferenceAccelerators": [],
+    "volumes": []
+  }

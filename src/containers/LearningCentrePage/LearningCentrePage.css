@@ -1,0 +1,73 @@
+.learningCentrePage {
+    margin: 0 30px;
+}
+@media screen and (min-width: 768px) {
+    .learningCentrePage {
+        /* margin: 0 150px; */
+        margin: 0 10%;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .learningCentrePage {
+        margin: 0 10%;
+    }
+}
+@media screen and (min-width: 1500px) {
+    .learningCentrePage {
+        /* margin: 0 210px; */
+        margin: 0 10%;
+    }
+}
+
+
+.moduleCards {
+    margin: 0 auto 60px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+@media screen and (min-width: 768px) {
+    .moduleCards {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+
+.moduleCard {
+    position: relative;
+    background-color: #f0f7fa;
+    /* max-height: 350px; */
+    border-radius: 30px;
+    padding: 20px;
+    margin: 15px 0;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+}
+@media screen and (min-width: 768px) {
+    .moduleCard {
+        width: 300px;
+        margin: 15px;
+    }
+}
+
+.titleGettingStarted { color: #78C6F7; }
+.titleBasics { color: #61D66A; }
+.titleDogBreeds { color: #B064E8; }
+.titleGettingStarted, .titleBasics, .titleDogBreeds {
+    margin-left: 0;
+}
+@media screen and (min-width: 768px) {
+    .titleGettingStarted, .titleBasics, .titleDogBreeds {
+        margin-left: 150px;
+    }
+}
+
+.cardTitle {
+    text-align: center;
+    margin: 0;
+}
+
+.cardDescription {
+    text-align: start;
+    margin: 0;
+    font-size: smaller;
+}

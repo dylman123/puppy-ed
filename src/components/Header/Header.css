@@ -1,0 +1,50 @@
+.App-header {
+  /* min-height: 20vh; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 2% 40px;
+  gap: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .App-header {
+    padding: 5% 10%;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .App-header {
+    padding: 3% 17%;
+  }
+}
+
+.mobile-header {
+  font-size: smaller;
+  /* margin: 0 -10px; */
+  gap: 0;
+}
+
+.linkHomePage {
+  flex: 1;
+}
+
+.spacer {
+  flex: 4
+}
+
+.linkModulesPage {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.linkHelpPage {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.linkStyle {
+  color: #509949;
+}
