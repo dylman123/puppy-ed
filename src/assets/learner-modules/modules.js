@@ -106,7 +106,44 @@ export const modules = [
       slug: "golden-retriever",
       description: "This information is from our Golden Retriever quiz - aimed at teaching the wider community about the breed. Please review and provide feedback on the information in order to make our quiz the most accurate and extensive that it can be.",
       imageFile: image014,
-      // category: "dog-breeds",
+      category: "dog-breeds",
+      quizUrl: "https://docs.google.com/forms/d/e/1FAIpQLSdvLzTZ2lNc67Pu3DYl0PbXA4rc5B8CiVeu9PZuzCaimAJi4g/viewform",
+      sections: {
+        "origin": {
+          text: "The Golden dates back to the latter half of the 19th century and owes much of its development to Sir Dudley Marjoribanks (Lord Tweedmouth). His records were meticulously kept and form a good basis of origins. Marjoribanks took a liking to the yellow colour and acquired a dog from Brighton, England in 1865 and used him on a, now extinct, Tweedwater Spaniel bitch, which was an English retrieving dog, close & curly-coated and a light liver colour. Through structured line breeding over a period of 20 years, and bringing in Labrador Retrievers, Red Setters and possibly a Bloodhound or two to improve scenting and add bone, the Golden was developed and in 1908 became registered and shown as Golden Flatcoats until 1913 when the listing was changed to Golden or Yellow Retrievers until, finally in 1920, they took the name they bear today.",
+          source: "https://www.purina.com.au/en/dogs/breeds/golden-retriever#.YQkKExMza3I",
+        },
+        "fun-fact": {
+          text: "The Golden Retriever was bred as a result of crossing a number of other breeds to be a bird dog, particularly for hunting water fowl. The combination of breeds created a hardy, strong swimming dog that could withstand cold water, track wounded game and deal with crippled birds.",
+          source: "https://www.hillspet.com.au/dog-care/dog-breeds/golden-retriever"
+        },
+        "behaviour": {
+          text: "The Golden is a gentle dog with intelligence and a level disposition and because of this is an ideal dog to have as part of the family. They adore children and love to be involved in all family matters, whether indoors or outdoors. They are foremost a retriever and are therefore very orally fixated. Goldens will attempt to drag, pull or carry anything they can fit into their mouths. They also love water and care should be taken to ensure their safety when any form of water is nearby.",
+          source: "https://www.purina.com.au/en/dogs/breeds/golden-retriever#.YQkKExMza3I",
+        },
+        "health": {
+          text: "When speaking to breeders it is recommended you enquire about the breed’s health and what health testing the breeder does. The Golden Retriever is generally a healthy breed, however health conditions do occur occasionally. These may include Hip Dysplasia (HD) & Elbow Dysplasia, eye problems such as Progressive Retinal Atrophy (PRA) & Hereditary Cataracts (HC), skin diseases such as Ichthyosis, hereditary heart disease such as canine subvalvular aortic stenosis (SAS), epilepsy and cancer. There are DNA tests available for a range of conditions.",
+          source: [
+            "https://dogsvictoria.org.au/family-pet/dogs-and-puppies/buying-a-puppy/breed-information-and-registered-breeders/golden-retriever/",
+            "https://ausngrc.org/health-matters/"
+          ]
+        },
+        "exercise": {
+          text: "Like most Sporting breeds, Goldens need plenty of daily exercise. A Golden who doesn't get enough exercise is likely to engage in undesirable behaviour. Goldens make great companions on long runs and bike rides, although consultation with a vet is recommended before starting strenuous or high-impact activities that might cause stress to the dog's bones and joints. Many Goldens happily get their exercise on hunting trips or at field trials, as well as by participating in canine sports such as agility, obedience, and tracking.",
+          source: "https://www.akc.org/dog-breeds/golden-retriever/"
+        },
+        "training": {
+          text: "As with all breeds, early socialisation and puppy training classes are recommended. Gently exposing the puppy to a wide variety of people, places, and situations between the ages of seven weeks and four months will help the Golden develop into a well-adjusted, well-mannered adult. Puppy training classes serve as part of the socialisation process and help the owner learn to recognise and correct any bad habits that may be developing. Obedience training strengthens the bond between dog and owner. A Golden wants nothing more than to please his human. Goldens are extremely intelligent dogs with an intense desire to please. Therefore they make superb candidates for fieldwork, showing, obedience, companionship and assistance for those with special needs. Never treat them harshly or harm can be done to their accommodating and sensitive natures.",
+          source: [
+            "https://www.akc.org/dog-breeds/golden-retriever/",
+            "https://www.purina.com.au/en/dogs/breeds/golden-retriever#.YQkKExMza3I"
+          ]
+        },
+        "grooming": {
+          text: "A symmetrical, powerful, active dog, sound and well put together, not clumsy or long in the leg, displaying a kindly expression and possessing a personality that is eager, alert and self-confident.\n\nGoldens have a double coat which is wavy and water resistant, in colours ranging from shades of cream to deep gold.\n\nRegular grooming such as bathing, brushing, and combing is essential to maintain your Golden Retriever’s luxurious, shiny coat, and this also reduces the quantity of hair that is shed and prevents matts from developing.",
+          source: "https://dogsvictoria.org.au/family-pet/dogs-and-puppies/buying-a-puppy/breed-information-and-registered-breeders/golden-retriever/",
+        }
+    },
     },
     {
       title: "French Bulldog",
