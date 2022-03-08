@@ -233,7 +233,51 @@ export const modules = [
       slug: "papillon",
       description: "This information is from our Papillon & Phalene quiz - aimed at teaching the wider community about the breed. Please review and provide feedback on the information in order to make our quiz the most accurate and extensive that it can be.",
       imageFile: image010,
-    //   category: "dog-breeds",
+      category: "dog-breeds",
+      quizUrl: "https://docs.google.com/forms/d/e/1FAIpQLSfurx9AW9VrlXjpN5R7IOzSQic_55r-C_JLySVb1wdQSs0FJw/viewform",
+      sections: {
+        "origin": {
+          text: "The Papillon's origins are somewhat unknown, however both France and Belgium are believed to have played a significant part in its history. In French, it got its name for its signature ears. Papillons gained popularity in Spain and Italy over time, where they were often depicted in classic paintings. Papillon means butterfly in French. However, not all of them have erect ears: The drop-eared variety is known as the Phalène. The Phalène takes its name from the butterfly’s cousin, the moth, another winged beauty that folds its wings when at rest. Phalènes and Papillons can be born in the same litter.",
+          source: "https://www.thesprucepets.com/breed-profile-papillon-1117984",
+        },
+        "fun-fact": {
+          text: "Famous owners include King Louis XIV of France and Marie Antoinette. It is written that Queen Marie Antoinette carried her pet papillon with her to the guillotine.",
+          source: "https://www.thesprucepets.com/breed-profile-papillon-1117984",
+        },
+        "behaviour": {
+          text: "Papillons and Phalenes are active and playful, and they won’t be content lounging on the couch with you all day. They do, however, love companionship and will always try to be where their humans are. Papillons do not hesitate to engage larger animals in play and also enjoy playing with children so it is important to ensure that children are gentle to avoid breaking any bones and causing other injury.",
+          source: [
+            "https://dogtime.com/dog-breeds/papillon#/slide/1",
+            "https://www.hillspet.com.au/dog-care/dog-breeds/papillon",
+          ],
+        },
+        "health": {
+          text: "Papillons are tough and gutsy, but they are very small. Owners need to be careful with them, especially when they are puppies, around stairs, furniture, and other, larger animals. A small child can accidentally hurt his puppy friend very easily. Responsible breeders screen their stock for health conditions such as a fontanel in the top of the skull, similar to a human baby's soft spot; and patellar luxation, which is when kneecaps 'slip' or dislocate, sometimes briefly, sometimes completely.\n\nOther potential health risks include:\nHypoglycemia, or low blood sugar, is a possible problem with all toy breed puppies.\nCollapsed Trachea which is the rapid inhalation of air causes the trachea to flatten and makes it difficult for air to enter the lungs.\nProgressive Retinal Atrophy (PRA) which is a degenerative eye disorder that eventually causes blindness from the loss of photoreceptors at the back of the eye.",
+          source: [
+            "https://www.akc.org/dog-breeds/papillon/",
+            "https://dogtime.com/dog-breeds/papillon#/slide/1"
+          ]
+        },
+        "exercise": {
+          text: "Papillons and Phalenes need a daily walk. They will also enjoy a good run and play in a safe open area off lead, such as a large fenced in yard. If that's not available, however, they'll make do with tearing through your house and jumping on and off the furniture. Outdoors, true to their spaniel heritage, Papillons and Phalenes will happily run in the yard to chase after smaller animals and even insects. Papillons and Phalenes tend not to realise e how small they actually are, so owners need to watch carefully if they set out after a larger dog, or even a cat.",
+          source: [
+            "https://www.purina.com.au/en/dogs/breeds/papillon#.YOaX0xMza3I",
+            "https://www.akc.org/dog-breeds/papillon/",
+            "https://dogtime.com/dog-breeds/papillon#/slide/1"
+          ],
+        },
+        "training": {
+          text: "Papillons and Phalenes are intelligent and eager to please the humans they have bonded with. Early socialisation is very important, and obedience classes are a good idea. Your Papillon or Phalene will learn to do what you tell them to, and you will learn not to overindulge your adorable companion. And remember that the Papillon and Phalene are a companion dog at heart; they may be unhappy and develop undesirable behaviour if left alone for long periods of time. The Papillon and Phalene’s alertness, intelligence and intense desire to please make it a favourite in obedience competition. They are also known to have notable talents in tracking, agility, and as therapy dogs.",
+          source: [
+            "https://www.akc.org/dog-breeds/papillon/",
+            "https://www.thesprucepets.com/breed-profile-papillon-1117984"
+          ],
+        },
+        "grooming": {
+          text: "Papillon heads are reasonably long and refined, especially the muzzle; this combined with large, mobile, well-fringed ears can remind you of nothing else than a butterfly. Phalenes on the other hand, have dropped ears. They are finely boned, light on their feet, carry a plumed tail over their back, and are crowned with a long, silky coat which may be of many colour combinations, with the base colour always being white.\n\nFor such a glamorous breed with long, silky hair, Papillons surprisingly, may not need the amount of grooming that is required by many of his compatriots in the Toy Group. This is because they do not have an undercoat. They shed moderately. Grooming every week or so is fine. Between full grooming sessions, you will want to spend a few minutes every day or so running a comb or soft slicker brush through the hair inside the hind legs, behind the ears, and on the breeches. A Papillon will need a bath every few weeks, or when he gets muddy or dirty. The Papillon’s nails grow quickly and should be trimmed regularly, especially the dewclaws, which if present can curl around and aggravate the leg. Finally, regular tooth brushing is vital for dental health.",
+          source: "https://dogsvictoria.org.au/family-pet/dogs-and-puppies/buying-a-puppy/breed-information-and-registered-breeders/papillon/"
+        }
+      },
     },
     {
       title: "Boxer",
