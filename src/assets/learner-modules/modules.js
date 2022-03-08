@@ -189,7 +189,44 @@ export const modules = [
       slug: "pug",
       description: "This information is from our Pug quiz - aimed at teaching the wider community about the breed. Please review and provide feedback on the information in order to make our quiz the most accurate and extensive that it can be.",
       imageFile: image009,
-    //   category: "dog-breeds",
+      category: "dog-breeds",
+      quizUrl: "https://docs.google.com/forms/d/e/1FAIpQLSeqWDgDiir2LJOGMbFjmsLuuMCqADtl_6_oYxsPocHu0FUqFw/viewform",
+      sections: {
+        "origin": {
+          text: "The pug originated from China over a thousand years ago. This makes the Pug one of the oldest breeds in existence. The Pug was then brought to Europe by the Dutch East India Company where they became a dog of high status, often found amongst the aristocats and the royalty. It is believed that as a result of a Pug saving the life of William, Prince of Orange, in 1572, the breed became the official dog for the Dutch Royal family.\n\nPugs are one of the earliest pure breeds of dog kept in Australia. Although it is uncertain as to when they arrived in this country, there are records from the Agricultural Society of NSW listing two pugs exhibited in 1870.",
+          source: [
+            "https://www.dogsnsw.org.au/Breeds/browse-all-breeds/58/Pug/",
+            "https://www.purina.com.au/dogs/breeds/pugs#.YWPS6RBBy3I"
+          ]
+        },
+        "fun-fact": {
+          text: "Suggest a fun fact about the Pug below.",
+        },
+        "behaviour": {
+          text: "Pugs are known to have an enormous personality, despite their small stature. They are an intelligent breed with lots of charm. A pug is even-tempered, lively and happiest when accompanied by their human. They have an innate ability to communicate exactly what it is that they want through a combination of their expressive and wrinkled face as well as their unique sounds.\n\nThey get along well with other dogs and pets, as well as children, although it is always important to supervise them when children are present.\n\n​​Although they can be stubborn, they should never be mean spirited or spiteful.",
+          source: "https://www.dogsnsw.org.au/Breeds/browse-all-breeds/58/Pug/"
+        },
+        "health": {
+          text: "When speaking to breeders it is recommended you enquire about the breed’s health and what health testing the breeder does. The Pug is generally a healthy breed, however health conditions do occur occasionally. These may include Brachycephalic Obstructive Airway Syndrome (BOAS), which is the obstruction of the upper airway tract and can cause snoring, regurgitation or reflux, noise during exercise, exercise intolerance and interrupted sleep. BOAS is common in Brachycephalic (the distinctive squashed face) breeds. The extent to how much a Brachycephalic dog suffers from BOAS varies, but it is important to understand the risks, and potential treatments.\n\nPug Dog Encephalitis (PDE) which is an inflammation of the brain that strikes adolescent Pugs usually between the ages of 2 and 3. The cause is unknown.\n\nDegenerative Myelopathy (DM) which is a progressive spinal cord disease typically in older dogs, and Pyruvate Kinase Deficiency (PKDef), a disease that affects an Enzyme that breaks down glycogen for energy - this leads to easily damaged red blood cells, and presents as a lack of energy.\n\nFor the latter three DNA tests are available. Pugs may also experience eye problems, particularly as the shape of the face means they are prone to eye injury.",
+          source: [
+            "https://dogsvictoria.org.au/family-pet/dogs-and-puppies/buying-a-puppy/breed-information-and-registered-breeders/pug/",
+            "http://www.caninegeneticdiseases.net/dm/basicdm.htm",
+            "https://www.pawprintgenetics.com/products/tests/details/114/#:~:text=Pyruvate%20kinase%20deficiency%20(pug%20type)%20is%20an%20inherited%20metabolic%20disease,red%20blood%20cells%20(hemolysis)."
+          ]
+        },
+        "exercise": {
+          text: "Given the opportunity, a Pug will happily spend much of the day snuggling on the sofa which, combined with the breed's fondness for eating, makes obesity a real possibility. But the Pug is playful, sturdy, and lively, too, and owners can keep the breed fit with daily opportunities for moderate exercise, such as walks or play sessions in the yard. It's vital to remember that as a short-faced breed pugs aren't tolerant of hot weather, and they shouldn't do strenuous exercise when it's warm or humid out. Pugs also love water, however they are not the strongest swimmers. Some canine sports in which pugs participate and excel include agility, obedience, and rally.",
+          source: "https://www.akc.org/dog-breeds/pug/"
+        },
+        "training": {
+          text: "The Pug has been bred to be a companion and a pleasure to his owners. He has an even and stable temperament, great charm, and an outgoing, loving disposition. Pugs live to please their people, so they are generally easy to train. A Pug wants to be with his family and will be unhappy if he is regularly left alone for long periods of time. However, they should be taught from a young age that small periods by themselves are okay to discourage separation anxiety. Early socialization (exposure to new environments, people and dogs) and puppy training classes are recommended.",
+          source: "https://www.akc.org/dog-breeds/pug/"
+        },
+        "grooming": {
+          text: "Pugs have a short coat and in general they shed quite lot.  As a minimum, weekly brushing helps keep the amount of hair shed under control. Pugs have facial folds which need to be cleaned every other day. Their nails grow very fast and need to be trimmed routinely. Their beautiful black ears need to be cleaned weekly.\n\nHe is a compact dog, with a well-developed ribcage, a tail curled over his back and a lustrous, short coat. The large round head, the sparkling eyes, and the wrinkled brow give pugs a range of human-like expressions. Pugs are either Black, Fawn, or Apricot, all with a black face mask.",
+          source: "https://dogsvictoria.org.au/family-pet/dogs-and-puppies/buying-a-puppy/breed-information-and-registered-breeders/pug/"
+        }
+      },
     },
     {
       title: "Rottweiler",
