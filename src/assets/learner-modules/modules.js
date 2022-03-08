@@ -371,7 +371,50 @@ export const modules = [
       slug: "whippet",
       description: "This information is from our Whippet quiz - aimed at teaching the wider community about the breed. Please review and provide feedback on the information in order to make our quiz the most accurate and extensive that it can be.",
       imageFile: image012,
-    //   category: "dog-breeds",
+      category: "dog-breeds",
+      quizUrl: "https://docs.google.com/forms/d/e/1FAIpQLSdLEQyJrVekdNBGCZ9IEUcIc2fUakJ2UJjGf8vI5GyCWVNBiQ/viewform",
+      sections: {
+        "origin": {
+          text: "The Whippet’s story begins in Victorian England. North-country coal miners enjoyed the sports of dog racing and rabbit hunting on their days off. But they couldn’t afford to feed and kennel large athletes like Greyhounds, nor did they have the space to properly exercise them. The miners’ practical solution was to breed a smaller version of the Greyhound. Though it is uncertain which breeds were utilized to create the Whippet, the miners plainly did their work well. Their handiwork, the Whippet, is the fastest breed of its size, reaching speeds of up to 35 miles per hour. They also used him for coursing, as they are capable of catching rabbits and hares.",
+          source: [
+            "https://www.akc.org/dog-breeds/whippet/",
+            "https://www.purina.com.au/en/dogs/breeds/whippet#.YOz5mBMza3I"
+          ],
+        },
+        "fun-fact": {
+          text: "In its formative days, the Whippet breed had nicknames such as the “Poor Man’s Racehorse” and the “Lightning Rag Dog” (they would chase a rag dragged along a straight course in an early version of lure coursing). The name Whippet seems to derive from “whappet,” an antique word that means “a small dog that yaps.”",
+          source: "https://www.akc.org/dog-breeds/whippet/",
+        },
+        "behaviour": {
+          text: "The Whippet is a gentle, patient, tolerant and affectionate dog. Although they are competitive when racing, they are adaptable and quiet dogs. They love people and enjoy playing with kids but prefer to stay away from very young children who may handle them roughly. At home large or small, they make ideal companions. They can be highly strung and need understanding from their owners.",
+          source: [
+            "https://www.purina.com.au/en/dogs/breeds/whippet#.YOz5mBMza3I",
+            "https://dogtime.com/dog-breeds/whippet#/slide/1"
+          ],
+        },
+        "health": {
+          text: "The Whippet frame is not well suited to carrying excessive weight. While young Whippets may appear gangly and have difficulty keeping their ribs covered when they are in the period of rapid growth, a mature adult should not appear ribby but should have two to four visible vertebrae, and the hip bones should not appear sunk into dimples of fat. A Whippet at a healthy weight will likely appear 'skinny' to those accustomed to heavier-bodied, less fleet breeds, but maintaining your Whippet at the correct weight through lifelong portion control will extend his life and avoid many of the orthopaedic problems that are both painful and expensive to repair.\n\nThe Whippet has a very fine coat which offers little protection to the skin, so scratches are likely to become tears and may require suturing. They have sensitive skins therefore harsh shampoos may provoke skin reactions and should be used with care. Their limbs are susceptible to injury and fractures may well be serious. They are also susceptible to stomach upsets on poor quality food but these apart they are generally healthy dogs.\n\nResponsible breeders should screen their stock for health conditions such as cardiac disease, deafness, and eye disorders.",
+          source: [
+            "https://www.akc.org/dog-breeds/whippet/",
+            "https://www.purina.com.au/en/dogs/breeds/whippet#.YO0xSRMza3I"
+          ]
+        },
+        "exercise": {
+          text: "Whippets are capable of short sharp bursts of fast running but are spirited enough to spend a long day of exercise if required. They will be happy to walk or jog with their owners and, although in need of daily exercise, are not too demanding. They are happiest on level, clear surfaces, uneven ground may lead to injury, particularly when travelling at speed and rough vegetation can tear their skin.",
+          source: "https://dogtime.com/dog-breeds/whippet#/slide/1",
+        },
+        "training": {
+          text: "Train your Whippet with praise, patience, and positive reinforcement. Whippets are smart and willing, but they also have a mind of their own. Reward them with food or praise when they do what you like, and never be harsh with them. They're sensitive and will stop working for you if you yell at them, try to force them to do something, or hurt their feelings.\n\nWith patience and consistency, you will find yourself the owner of a well-trained Whippet. After basic obedience you may want to pursue training in dog sports such as flyball, agility, and lure coursing.",
+          source: "https://dogtime.com/dog-breeds/whippet#/slide/1",
+        },
+        "grooming": {
+          text: "Whippets make for clean, odour-free pets and their smooth, short-haired coat is easy to groom. Brush with a bristle brush when necessary and bath occasionally. A weekly rub with a damp mitt and your Whippet will be ready to walk the runway. Trim their nails and brush their coat regularly. Whippets shed moderately. This breed may feel the cold in winter and enjoy the comfort of a coat at night.\n\nThe whippet comes in a wide variety of colours and mixes of colours. These include black, fawn, white, blue, brindle, black and white, blue and white etc.",
+          source: [
+            "https://dogsvictoria.org.au/family-pet/dogs-and-puppies/buying-a-puppy/breed-information-and-registered-breeders/whippet/",
+            "https://www.purina.com.au/en/dogs/breeds/whippet#.YOz5mBMza3I"
+          ]
+        }
+      },
     },
     {
       title: "Bichon Frise",
