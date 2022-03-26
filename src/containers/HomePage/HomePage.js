@@ -1,12 +1,15 @@
-import React from 'react';
 import SectionIntro from './SectionIntro/SectionIntro';
 import SectionHowItWorks from './SectionHowItWorks/SectionHowItWorks';
 import SectionSignUp from './SectionSignUp/SectionSignUp';
 import SectionOurMission from './SectionOurMission/SectionOurMission';
 
+import usePageView from '../../utils/usePageView';
+
 import './HomePage.css';
 
+
 export default function HomePage() {
+  usePageView()
   return (
     <div className='homePage'>
       <div className='section' id='intro'>
