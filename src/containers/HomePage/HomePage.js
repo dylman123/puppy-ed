@@ -9,7 +9,7 @@ import './HomePage.css';
 
 
 export default function HomePage() {
-  usePageView()
+  usePageView('HomePage')
   return (
     <div className='homePage'>
       <div className='section' id='intro'>

@@ -1,14 +1,14 @@
 import React from 'react';
 import { useLocation } from 'react-router-dom';
 import mixpanel from 'mixpanel-browser';
+import { MIXPANEL_PROJECT_TOKEN } from '../config';
 
-mixpanel.init(process.env.REACT_APP_MIXPANEL_PROJECT_TOKEN);
+mixpanel.init(MIXPANEL_PROJECT_TOKEN);
 
-export default function usePageView() {
+export default function usePageView(pageName) {
     let location = useLocation();
     React.useEffect(() => {
-      console.log(["pageview", location.pathname]);
-      mixpanel.track('Page View', {
+      mixpanel.track(`${pageName}`, {
           url: location.pathname
       })
     }, [location]);

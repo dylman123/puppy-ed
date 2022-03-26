@@ -7,7 +7,7 @@ import usePageView from '../../utils/usePageView';
 import './LearningCentrePage.css';
 
 export default function LearningCentrePage() {
-  usePageView()
+  usePageView('LearningCentrePage')
 
   const mapModuleToCard = m => {
     return (

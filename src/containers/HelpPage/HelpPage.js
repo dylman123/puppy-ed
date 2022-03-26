@@ -5,7 +5,7 @@ import image from './reachout.svg';
 import usePageView from '../../utils/usePageView';
 
 export default function HelpPage() {
-  usePageView()
+  usePageView('HelpPage')
 
   return (
     <div className='helpPage'>

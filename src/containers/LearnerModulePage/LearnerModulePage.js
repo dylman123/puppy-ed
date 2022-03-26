@@ -42,7 +42,7 @@ const sectionHeadings = [
 ]
 
 export default function LearnerModulePage() {
-    usePageView()
+    usePageView('LearnerModulePage')
 
     var { slug, tab } = useParams();
     
