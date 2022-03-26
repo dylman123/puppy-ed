@@ -2,7 +2,11 @@ import React from 'react';
 import './HelpPage.css'
 import image from './reachout.svg';
 
+import usePageView from '../../utils/usePageView';
+
 export default function HelpPage() {
+  usePageView('HelpPage')
+
   return (
     <div className='helpPage'>
       <h1 className='pageTitle'>Contact us</h1>

@@ -2,9 +2,12 @@ import React from 'react';
 import { modules } from '../../assets/learner-modules/modules';
 import AuthorCard from '../../components/AuthorCard/AuthorCard';
 
+import usePageView from '../../utils/usePageView';
+
 import './LearningCentrePage.css';
 
 export default function LearningCentrePage() {
+  usePageView('LearningCentrePage')
 
   const mapModuleToCard = m => {
     return (

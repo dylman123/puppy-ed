@@ -4,6 +4,8 @@ import { modules } from '../../assets/learner-modules/modules';
 import { CommentCount, DiscussionEmbed } from "disqus-react";
 import { BASE_URL, ENV, DEV } from '../../config';
 
+import usePageView from '../../utils/usePageView';
+
 import './LearnerModulePage.css';
 import AuthorCard from '../../components/AuthorCard/AuthorCard';
 
@@ -40,6 +42,7 @@ const sectionHeadings = [
 ]
 
 export default function LearnerModulePage() {
+    usePageView('LearnerModulePage')
 
     var { slug, tab } = useParams();
     

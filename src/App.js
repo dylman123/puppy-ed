@@ -1,3 +1,4 @@
+import React from "react";
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
@@ -12,17 +13,24 @@ import './App.css';
 function App() {
   return (
     <div className='App'>
+
       <Header />
+
       <BrowserRouter>
+
         <Routes>
-          <Route path='/' element={<HomePage/>} />
-          <Route path='/learning-centre' element={<LearningCentrePage />} />
-          <Route path='/quiz/:slug/:tab' element={<LearnerModulePage />} />
-          <Route path='/help' element={<HelpPage />} />
+            <Route path='/' element={<HomePage/>} />
+            <Route path='/learning-centre' element={<LearningCentrePage />} />
+            <Route path='/quiz/:slug/:tab' element={<LearnerModulePage />} />
+            <Route path='/help' element={<HelpPage />} />
         </Routes>
+
       </BrowserRouter>
+
       <Footer />
+      
       <PageArt />
+
     </div>
   );
 }
