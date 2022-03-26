@@ -11,5 +11,5 @@ export default function usePageView(pageName) {
       mixpanel.track(`${pageName}`, {
           url: location.pathname
       })
-    }, [location, pageName]);
+    }, [location]);
 }
